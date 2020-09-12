@@ -1,5 +1,7 @@
 [back](/)
 
+### Privilege Escalation via Python Library Hijacking
+
 ![Image](/img/NatAndRealIPAndGateway.jpg)
 
 Example 1. You have a script such as backup.py in a directory with file write permissions. If the script contains import of libraries, for example «import zipfile», then you can create a reverse or bind shell named «zipfile.py» in the same directory, the Python interpreter will run it before looking at the libraries in the standard directories:

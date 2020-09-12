@@ -1,5 +1,7 @@
 [back](/)
 
+### Active Directory Object Recovery (Recycle Bin)
+
 If suddenly you have a domain user in the "AD Recycle Bin" group, you can easily view the attributes of deleted objects within time period of "msDS-DeletedObjectLifetime" using Get-ADObject.
 
 Stored object attributes are often useful for compromising an Acive Directory and privilege escalation =)
