@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages =)
+## Welcome to jaki blog
 
-You can use the [editor on GitHub](https://github.com/l0wc0ster/blog/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Hello everyone, in this blog I will post interesting ways to hack and increase privileges in systems. For suggestions and comments, write to my [linkedin]( https://www.linkedin.com/in/sergey-budilov/)
 
 ## testesttest
 
