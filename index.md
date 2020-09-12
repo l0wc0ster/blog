@@ -11,11 +11,11 @@ Hello everyone, in this blog I will post interesting ways to hack and increase p
 
 
 
- <style>
-   h1 {
-    font-family: Lucida Console, Courier, monospace;
-    font-size: x-small;
-    text-align: center;
+<style type="text/css">
+ .block1 { 
+  font-family: Lucida Console, Courier, monospace;
+  font-size: x-small;
+  text-align: center;
    } 
- </style>
- <h1>Created by Sergey Budilov</h1>
+</style>
+<div class="block1">Created by Sergey Budilov</div>
