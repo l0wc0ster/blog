@@ -11,4 +11,10 @@ Hello everyone, in this blog I will post interesting ways to hack and increase p
 
 
 
-<div align="center" style="font-size:2;" font-family= "Geneva, Arial, Helvetica, sans-serif;" >Created by Sergey Budilov</div>
+ <style>
+   h1 {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    size: 2;
+   } 
+ </style>
+ <h1><center>Created by Sergey Budilov</center></h1>
