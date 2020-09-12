@@ -1,4 +1,4 @@
-[back](/blog)
+[back](/)
 
 When you need to bypass csrf token in web application by burp, just remember few rules:
 
@@ -16,4 +16,4 @@ For example, if you make brute-force attack on login page, describe the previous
 ![Image](/img/anti-csrf-burp/4.png)
 ![Image](/img/anti-csrf-burp/6.png)
 
-[back](/blog)
+[back](/)
