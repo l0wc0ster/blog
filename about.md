@@ -15,9 +15,6 @@ I will be glad to any feedback and suggestions:
 
 **[HTB Profile](https://www.hackthebox.eu/home/users/profile/22706)**
 
-
-
-
 <style type="text/css">
  .block1 { 
   font-family: Lucida Console, Courier, monospace;
