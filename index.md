@@ -10,10 +10,10 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ### Working with Active Directory
 **[ActiveDirectory Object Recovery (Recycle Bin)](ad-recycle-bin.md)**
 
-### Privilege Escalation:
+### Privilege Escalation
 **[Privilege Escalation via Python Library Hijacking](ad-recycle-bin.md)**
 
-### Other:
+### Other
 **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)**
 
 <style type="text/css">
