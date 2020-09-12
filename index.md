@@ -14,7 +14,7 @@ Hello everyone, in this blog I will post interesting ways to hack and increase p
 <style type="text/css">
  .block1 { 
   font-family: Lucida Console, Courier, monospace;
-  font-size: x-small;
+  font-size: small;
   text-align: center;
    } 
 </style>
