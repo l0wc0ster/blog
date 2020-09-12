@@ -1,6 +1,6 @@
 [back](/)
 
-![Image](/img/python_lib_hijacking/python.jpg)
+![Image](/img/python.jpg)
 
 ### Privilege Escalation via Python Library Hijacking
 
