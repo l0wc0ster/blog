@@ -8,6 +8,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ## Articles list 2020:
 
 **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)**
+
 **[ActiveDirectory Object Recovery (Recycle Bin)](ad-recycle-bin.md)**
 
 <style type="text/css">
