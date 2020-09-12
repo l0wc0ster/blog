@@ -14,7 +14,7 @@ Hello everyone, in this blog I will post interesting ways to hack and increase p
  <style>
    h1 {
     font-family: Lucida Console, Courier, monospace;
-    size: 1;
+    font-size: x-small;
    } 
  </style>
  <h1><center>Created by Sergey Budilov</center></h1>
