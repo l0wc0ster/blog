@@ -18,4 +18,4 @@ Hello everyone, in this blog I will post interesting ways to hack and increase p
   text-align: center;
    } 
 </style>
-<div class="block1">Created by Sergey Budilov</div>
+<div class="block1">Created by Sergey Budilov @jaki</div>
