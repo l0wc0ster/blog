@@ -1,3 +1,5 @@
+[back](/blog)
+
 When you need to bypass csrf token in web application by burp, just remember few rules:
 
 1. choose the request which with 100% probability will return a new token
