@@ -4,4 +4,5 @@ Hello everyone, in this blog I will post interesting ways to hack and increase p
 
 ### Bypass csrf token by BurpSuite
 [link](https://github.com/l0wc0ster/blog/blob/gh-pages/csfr-bypass-burpsuite.md)
+
 ![Image](https://github.com/l0wc0ster/blog/blob/gh-pages/img/anti-csrf-burp/6.png)
