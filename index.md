@@ -1,7 +1,7 @@
 ## Welcome to [jaki](about.md)'s blog
 ---
 
-Hello everyone, in this blog I will post interesting ways to hack and increase privileges in systems. For suggestions and comments, write to my [linkedin]( https://www.linkedin.com/in/sergey-budilov/)
+Hello everyone, in this blog I will post interesting attack techniques and privilege escalation methods. For suggestions and comments, write to my [LinkedIn](https://www.linkedin.com/in/sergey-budilov/)
 
 ---
 
@@ -18,4 +18,4 @@ Hello everyone, in this blog I will post interesting ways to hack and increase p
   text-align: center;
    } 
 </style>
-<div class="block1">&copy; Sergey Budilov</div>
+<div class="block1">&copy; 2020 Sergey Budilov</div>
