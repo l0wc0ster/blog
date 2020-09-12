@@ -9,5 +9,7 @@ Hello everyone, in this blog I will post interesting ways to hack and increase p
 
 **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)**
 
+| Default Header | Left Align | Right Align | Center Align |
+| --- | :-- | --: | :-: |
 
-<center>`Created by Sergey Budilov @jaki`</center>
+`Created by Sergey Budilov @jaki`
