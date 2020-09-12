@@ -8,7 +8,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ## Articles list 2020:
 
 ### Working with Active Directory
-**[ActiveDirectory Object Recovery (Recycle Bin)](ad-recycle-bin.md)**
+**[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)**
 
 ### Privilege Escalation
 **[Privilege Escalation via Python Library Hijacking](ad-recycle-bin.md)**
