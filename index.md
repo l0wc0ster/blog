@@ -1,8 +1,7 @@
 ## Welcome to [jaki](about.md)'s blog
 ---
 
-Hello everyone, in this blog I will post interesting attack techniques and privilege escalation methods. 
-For suggestions and comments, visit the [contacts](about.md).
+Hello everyone, in this blog I will post interesting attack techniques and privilege escalation methods. For suggestions and comments, visit the [contacts](about.md).
 
 ---
 
