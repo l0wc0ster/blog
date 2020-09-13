@@ -7,9 +7,8 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ## Articles 2020
 
-### Working with Active Directory
-
-| :------| --------------------------------:|
+| :------| ------:|
+|  `Working with Active Directory` | |
 | [Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md) | posted on JUL 17 |
 
 ### Privilege Escalation
