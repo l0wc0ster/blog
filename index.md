@@ -8,7 +8,10 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ## 2020
 
 ### Working with Active Directory
-**[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)** &#x202a; posted on JUL 17
+| Option | Description |
+| :------| -----------:|
+| **[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)**   |  posted on JUL 17 |
+
 
 ### Privilege Escalation
 **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** posted on JUL 19
@@ -21,6 +24,11 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
   font-family: Lucida Console, Courier, monospace;
   font-size: small;
   text-align: center;
+   } 
+   .block1 { 
+  font-family: Lucida Console, Courier, monospace;
+  font-size: small;
+  text-align: right;
    } 
 </style>
 <div class="block1">&copy; 2020 Sergey Budilov</div>
