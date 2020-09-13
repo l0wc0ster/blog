@@ -121,7 +121,6 @@ These articles will help you explore the issue in more detail:
 + [enumerating-domain-accounts](https://blog.netspi.com/hacking-sql-server-procedures-part-4-enumerating-domain-accounts/)
 + [how-to-check-the-rid-pool-in-active-directory](https://www.windowstechno.com/how-to-check-the-rid-pool-in-active-directory/)
 + [varbinary-to-literal-varchar-copy-in-sql-server-2005](https://stackoverflow.com/questions/6424328/varbinary-to-literal-varchar-copy-in-sql-server-2005)
-+ [security-identifiers](https://docs.microsoft.com/ru-ru/windows/security/identity-protection/access-control/security-identifiers)
 
 <div id="disqus_thread"></div>
 <script>
