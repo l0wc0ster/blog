@@ -13,7 +13,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 | Privilege Escalation | **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** | posted on JUL 19 |
 | | **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15 |
 | Other| **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15 |
-| **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15 |
+| | **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15 |
 
 <style type="text/css">
  .block1 { 
