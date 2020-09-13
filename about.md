@@ -8,11 +8,11 @@ My name is Sergey Budilov, i like to practice in Penetration testing and Red Tea
 ## My contacts
 I will be glad to any feedback and suggestions:
 
-* [Telegram](https://t.me/budilovsd)
++ [Telegram](https://t.me/budilovsd)
 
-* [LinkedIn](https://www.linkedin.com/in/sergey-budilov/)
++ [LinkedIn](https://www.linkedin.com/in/sergey-budilov/)
 
-* [HTB Profile](https://www.hackthebox.eu/home/users/profile/22706)**
++ [HTB Profile](https://www.hackthebox.eu/home/users/profile/22706)**
 
 <div id="disqus_thread"></div>
 <script>
