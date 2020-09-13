@@ -29,10 +29,5 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
   font-size: small;
   text-align: center;
    } 
-   .block1 { 
-  font-family: Lucida Console, Courier, monospace;
-  font-size: small;
-  text-align: right;
-   } 
 </style>
 <div class="block1">&copy; 2020 Sergey Budilov</div>
