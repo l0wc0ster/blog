@@ -1,7 +1,5 @@
 [back](/)
 
-![Image](/img/sebackup_and_serestore/homer.jpg)
-
 ### Glad to see you domain admin
 
 What can domain users with "SeBackupPrivilege" and "SeRestorePrivilege" privileges do?

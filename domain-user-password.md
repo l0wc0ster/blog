@@ -1,7 +1,5 @@
 [back](/)
 
-![Image](/img/hat.jpg)
-
 ### Your password has expired
 
 During penetration testing Active Directory you often encounter the need to change the password for domain users. How to do this if you do not have direct access to control? for example by winrm, rdp or wmi.
