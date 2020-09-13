@@ -5,14 +5,16 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ---
 
+## 2020
+
 ### Working with Active Directory
-**[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)** - july 2020
+**[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)** &copy; JUL 17
 
 ### Privilege Escalation
-**[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** - july 2020
+**[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** &copy; JUL 19
 
 ### Other
-**[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** - <div class="block1">&copy;</div> june 2020
+**[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** &copy; JUL 15
 
 <style type="text/css">
  .block1 { 
