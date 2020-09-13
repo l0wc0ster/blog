@@ -6,11 +6,11 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ---
 
 ## 2020
-<div class="foo">
-**[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)** | posted on JUL 17
-**[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** | posted on JUL 19
-**[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15
-</div>
+
+| :------| -----------:|
+| **[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)** | posted on JUL 17 |
+| **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** | posted on JUL 19 |
+| **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15 |
 
 <style type="text/css">
  .block1 { 
@@ -18,13 +18,6 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
   font-size: small;
   text-align: center;
    } 
-   .foo table {
-  width: 100%;
-   }
 </style>
 <div class="block1">&copy; 2020 Sergey Budilov</div>
 
-| :------| -----------:|
-| **[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)** | posted on JUL 17 |
-| **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** | posted on JUL 19 |
-| **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15 |
