@@ -36,7 +36,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 </style>
 <div class="block1">&copy; 2020 Sergey Budilov</div>
 
-| Syntax      | Description | Test Text     |
-| :---        |    :----:   |          ---: |
-| Header      | Title       | Here's this   |
-| Paragraph   | Text        | And more      |
+| Syntax      | Test Text     |
+| :---        |          ---: |
+| Header      | Here's this   |
+| Paragraph   | And more      |
