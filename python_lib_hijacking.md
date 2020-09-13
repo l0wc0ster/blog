@@ -8,15 +8,10 @@ Example 1. You have a script such as backup.py in a directory with file write pe
 python3 -c'import sys; print ("\ n" .join (sys.path)) '
 
 /usr/lib/python35.zip
-
 /usr/lib/python3.5
-
 /usr/lib/python3.5/plat-x86_64-linux-gnu
-
 /usr/lib/python3.5/lib-dynload
-
 /usr/local/lib/python3.5/dist-packages
-
 /usr/lib/python3/dist-packages
 ```
 ![Image](/img/python_lib_hijacking/1.png)
