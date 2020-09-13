@@ -15,12 +15,10 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ### Privilege Escalation
 
-| :--- | ---: |
 | **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** | posted on JUL 19 |
 
 ### Other
 
-| :--- | ---: |
 | **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15 |
 | **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** | posted on JUL 19 |
 
