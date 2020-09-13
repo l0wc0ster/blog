@@ -10,7 +10,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ### Working with Active Directory
 
 | :--- | ---: |
-| **[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)**   |  posted on JUL 17   |
+| **[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)** | posted on JUL 17 |
 
 
 ### Privilege Escalation
