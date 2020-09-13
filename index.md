@@ -14,8 +14,11 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ### Privilege Escalation
 
-| [Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md) | posted on JUL 15 |
+| [SeLoadDriverPrivilege Privilege Escalation](seload-driverprivilege.md) | posted on JUL 24 |
 | [Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md) | posted on JUL 19 |
+
+### Auxillary techniques
+| [Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md) | posted on JUL 15 |
 
 <style type="text/css">
  .block1 { 
