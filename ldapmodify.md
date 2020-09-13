@@ -2,7 +2,10 @@
 
 ### Privilege escalation kill chain: ldapmodify -> docker gid -> root
 
-Everyone knows well that a user in a docker group (gid = docker, groups = docker) will be able to increase privileges to root. There is a great way from GTFOBins "docker run -v /: / mnt --rm -it ubuntu chroot / mnt sh".
+Everyone knows well that a user in a docker group (gid = docker, groups = docker) will be able to increase privileges to root. There is a great way from GTFOBins:
+```
+docker run -v /: / mnt --rm -it ubuntu chroot / mnt sh
+```
 
 Recently I found myself in an interesting situation when a user had full access to the LDAP, had the ability to add, remove or change any attributes. But the current user was not in the docker group.
 
