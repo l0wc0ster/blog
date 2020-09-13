@@ -12,7 +12,7 @@ I will be glad to any feedback and suggestions:
 
 + [LinkedIn](https://www.linkedin.com/in/sergey-budilov/)
 
-+ [HTB Profile](https://www.hackthebox.eu/home/users/profile/22706)**
++ [HTB Profile](https://www.hackthebox.eu/home/users/profile/22706)
 
 <div id="disqus_thread"></div>
 <script>
