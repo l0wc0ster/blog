@@ -9,6 +9,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ### Working with Active Directory
 
+| Theme      | Date    |
 | :------ | ------:|
 | [Don't know the user's password? Make it kerberoastable =)](generic_write.md)| posted on AUG 10 |
 | [Username enumeration via SQL injection](username_enum-from-sqli.md) | posted on AUG 8 |
