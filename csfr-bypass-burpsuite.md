@@ -18,7 +18,6 @@ For example, if you make brute-force attack on login page, describe the previous
 ![Image](/img/anti-csrf-burp/4.png)
 ![Image](/img/anti-csrf-burp/6.png)
 
-
 <div id="disqus_thread"></div>
 <script>
 (function() { // DON'T EDIT BELOW THIS LINE
