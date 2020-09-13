@@ -29,7 +29,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:|
-| [Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md) | JUL 15 |
+| [Bypass csrf token with BurpSuite](csfr-bypass-burpsuite.md) | JUL 15 |
 
 
 <style type="text/css">

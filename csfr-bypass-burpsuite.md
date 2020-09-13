@@ -1,6 +1,6 @@
 [back](/)
 
-### Bypass csrf token by BurpSuite
+### Bypass csrf token with BurpSuite
 
 When you need to bypass csrf token in web application by burp, just remember few rules:
 
@@ -10,7 +10,7 @@ When you need to bypass csrf token in web application by burp, just remember few
 4. make the regular expression of the macro and rule settings the most accurate
 5. and most importantly - describe the logic of the macros "before sending the main request"
 
-For example, if you make brute-force attack on login page, describe the previous get request to return token from web server, do not describe the next step, you can do it in intruder later =) 
+For example, if you make a brute-force attack on a login page, describe the previous get request to return token from web server, do not describe the next step, you can do it in intruder later =) 
 
 ![Image](/img/anti-csrf-burp/1.png)
 ![Image](/img/anti-csrf-burp/2.png)

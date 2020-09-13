@@ -28,7 +28,7 @@ smbpasswd -r HOST -U yourusername
 Also, if you have an active account in the domain, you can run commands from the cmd/powershell console:
 
 ```
-runas / netonly /U:yourusername@yourdomain powershell
+runas /netonly /U:yourusername@yourdomain powershell
 ```
 
 this way you will open a session as a domain user
