@@ -9,7 +9,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ### Working with Active Directory
 
-| :--- |    ---:    |
+| :------| -----------:|
 | **[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)** | posted on JUL 17 |
 | **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** | posted on JUL 19 |
 | **[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** | posted on JUL 15 |
