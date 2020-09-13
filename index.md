@@ -5,7 +5,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ---
 
-## 2020
+## Articles 2020
 
 ### Working with Active Directory
 
