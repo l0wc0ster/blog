@@ -41,7 +41,7 @@ or using mimikatz having previously generated the NTLM hash:
 echo -n "password" | iconv -t UTF-16LE | openssl md4
 privilege :: debug
 token :: elevate
-pth /user:yourusername /domain:yourdomain / ntlm: NTLM /run:"powershell.exe"
+pth /user:yourusername /domain:yourdomain / ntlm:NTLM /run:"powershell.exe"
 ```
 
 ![Image](/img/domain-user-password/4.png)
