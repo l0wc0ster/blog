@@ -19,12 +19,16 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ### Privilege Escalation
 
+| Theme      | Date    |
+| :------ | ------:|
 | [Privilege escalation kill chain: ldapmodify -> docker gid -> root](ldapmodify.md) | posted on SEP 05 |
 | [Privilege Escalation via SeLoadDriverPrivilege](seload-driverprivilege.md) | posted on JUL 24 |
 | [Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md) | posted on JUL 19 |
 
 ### Auxillary techniques
 
+| Theme      | Date    |
+| :------ | ------:|
 | [Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md) | posted on JUL 15 |
 
 
@@ -36,8 +40,3 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
    } 
 </style>
 <div class="block1">&copy; 2020 Sergey Budilov</div>
-
-| Syntax      | Test Text     |
-| :---        |          ---: |
-| Header          | Here's this       |
-| Paragraph        | And more      |
