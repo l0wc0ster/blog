@@ -1,6 +1,6 @@
 [back](/)
 
-![Image](/img/hat.jpg)
+<div class="block1"> <img src="/img/hat.jpg"></div>
 
 ### Your password has expired
 
@@ -74,6 +74,14 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<style type="text/css">
+ .block1 { 
+  font-family: Lucida Console, Courier, monospace;
+  font-size: small;
+  text-align: center;
+   } 
+</style>
 
 [back](/)
 
