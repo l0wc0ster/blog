@@ -18,6 +18,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 | [Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md) | posted on JUL 19 |
 
 ### Auxillary techniques
+
 | [Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md) | posted on JUL 15 |
 
 <style type="text/css">
