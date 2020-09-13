@@ -10,6 +10,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ### Working with Active Directory
 
 | :------ | ------:|
+| [Glad to see you domain admin](sebackup_and_serestore.md) | posted on JUL 30 |
 | [Your password has expired](domain-user-password.md) | posted on JUL 27 |
 | [Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md) | posted on JUL 17 |
 
