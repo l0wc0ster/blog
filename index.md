@@ -12,7 +12,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** - july 2020
 
 ### Other
-**[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** - june 2020
+**[Bypass csrf token by BurpSuite](csfr-bypass-burpsuite.md)** - <div class="block1">&copy;</div> june 2020
 
 <style type="text/css">
  .block1 { 
