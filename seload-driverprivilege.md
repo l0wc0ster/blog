@@ -1,6 +1,6 @@
 [back](/)
 
-### SeLoadDriverPrivilege Privilege Escalation
+### Privilege Escalation via SeLoadDriverPrivilege
 
 Sometimes a low privilege user has a "SeLoadDriverPrivilege" attribute that allows him to load and unload drivers on the system.
 

@@ -14,7 +14,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ### Privilege Escalation
 
-| [SeLoadDriverPrivilege Privilege Escalation](seload-driverprivilege.md) | posted on JUL 24 |
+| [Privilege Escalation via SeLoadDriverPrivilege](seload-driverprivilege.md) | posted on JUL 24 |
 | [Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md) | posted on JUL 19 |
 
 ### Auxillary techniques
