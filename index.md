@@ -9,8 +9,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ### Working with Active Directory
 
-| Left-aligned |  Right-aligned |
-| :---         |           ---: |
+| :--- | ---: |
 | **[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)**   |  posted on JUL 19   |
 
 
