@@ -12,6 +12,10 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 | :------| -----------:|
 | **[Active Directory Object Recovery (Recycle Bin)](ad-recycle-bin.md)**   |  posted on JUL 17 |
 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
 
 ### Privilege Escalation
 **[Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md)** posted on JUL 19
