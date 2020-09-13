@@ -12,7 +12,7 @@ More information at: [ExploitCapcom](https://github.com/tandasat/ExploitCapcom)
 ![Image](/img/seload-driverprivilege/2.png)
 ![Image](/img/seload-driverprivilege/5.png)
 ![Image](/img/seload-driverprivilege/4.png)
-![Image](/img/seload-driverprivilege/3c.png)
+![Image](/img/seload-driverprivilege/3.png)
 
 <div id="disqus_thread"></div>
 <script>
