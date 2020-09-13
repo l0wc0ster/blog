@@ -2,11 +2,11 @@
 
 ### Your password has expired
 
-During penetration testing Active Directory you often encounter the need to change the password for domain users. How to do this if you do not have direct access to control? for example by winrm, rdp or wmi.
+During penetration testing Active Directory you often encounter the need to change the password for domain users. How to do this if you do not have direct access to control? For example by winrm, rdp or wmi.
 
 Here are some useful examples that I've collected as a result of my work:
 
-Example 1: you have a domain user whose password has expired (or a temporary password has been set), in which case you will not be able to connect under the current user due to NLA (Network Level Authentication). By using the NetApi32 function you can easily change the password without a direct connection, in this article you will find the script: https://hinchley.net/articles/changing-your-expired-active-directory-password-via-powershell/
+Example 1: you have a domain user whose password has expired (or a temporary password has been set), in which case you will not be able to connect under the current user due to NLA (Network Level Authentication). By using the NetApi32 function you can easily change the password without a direct connection, in this article you will find the script: [changing-your-expired-active-directory-password](https://hinchley.net/articles/changing-your-expired-active-directory-password-via-powershell/)
 
 Example 2: you have a domain user with the "ForceChangePassword" attribute, in which case you do not need to know the current user's password and you can use the rpcclient utility as follows:
 

@@ -35,7 +35,7 @@ Using the SUSER_SID and SUSER_SNAME queries, it is possible to enumerate usernam
 
 ![Image](/img/username_enum-from-sqli/7.png)
 
-Knowing the structure of the SID and the process of generating RID, you can select 8 bytes related to RID and get a list of usernames in the AD. I wrote a small script to help you do this. It contains WAF bypass elements associated with the waiting time. It also converts each payload character to Unicode, which indicates a non-standard injection:
+Knowing the structure of the SID and the process of generating RID, you can select 8 bytes related to RID and get a list of usernames in the AD. I wrote a small script to help you to do this. It contains WAF bypass elements associated with the waiting time. It also converts each payload character to Unicode, which indicates a non-standard injection:
 
 ```
 #!/usr/bin/python3
