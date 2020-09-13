@@ -18,6 +18,7 @@ setuserinfo2 yourusername 23 'yourpassword'
 
 ![Image](/img/domain-user-password/1.png)
 ![Image](/img/domain-user-password/2.png)
+
 ![Image](/img/domain-user-password/3.png)
 
 Example 3: you have a domain user with an expired password and access to the smb service, then you can change the password using smbpasswd like this:
