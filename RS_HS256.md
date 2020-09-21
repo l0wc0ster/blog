@@ -27,7 +27,7 @@ To investigate possible SQL injection and JWS token signing via **RS/HS256 publi
 
 The SQL injection research process was accompanied by the use of the following payloads:
 
-The answer 200 means there is an SQL injection:
+The answer "HTTP/1.1 200 OK" means there is an SQL injection:
 ```
 "username" : "jaki' and 1=1 -- -"
 ```
