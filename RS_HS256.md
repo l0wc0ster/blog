@@ -8,7 +8,7 @@ In this example there is a server with a Node.js runtime and a SQLite database, 
 
 ![Image](/img/RS_HS256/auth_jwt.png)
 
-JWT consists of three parts: Header, Payload, Verify Signature, encoded in Base64 format:
+JWT consists of three parts: Header, Payload, Verify Signature, encoded in Base64 format and separated by a dot:
 
 ![Image](/img/RS_HS256/jwt_decode.png)
 
