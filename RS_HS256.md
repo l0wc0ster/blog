@@ -19,7 +19,7 @@ In the process of examining the code of the Node.js web application, a fragment 
 ![Image](/img/RS_HS256/vuln_code.png)
 
 
-To investigate possible SQL injection and JWS token signing via **RS/HS256 public key mismatch** I used [jwt_tool](https://github.com/ticarpi/jwt_tool) tool. To generate payload, it need to change the value of the **${username}:** parameter and then sign the JWS using public.key:
+To investigate possible SQL injection and JWS token signing via **RS/HS256 public key mismatch** I used [jwt_tool](https://github.com/ticarpi/jwt_tool) tool. To generate payload, it need to change the value of the **${username}** parameter and then sign the JWS using public.key:
 
 ![Image](/img/RS_HS256/jwtool_1.png)
 
