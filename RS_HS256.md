@@ -12,7 +12,7 @@ JWT consists of three parts: Header, Payload, Verify Signature, encoded in Base6
 
 ![Image](/img/RS_HS256/jwt_decode.png)
 
-In the process of examining the code of the Node.js web application, a fragment of an SQL query was found with the direct inclusion of the value of the parameter, which is controlled by the user: $ {username}:
+In the process of examining the code of the Node.js web application, a fragment of an SQL query was found with the direct inclusion of the value of the parameter, which is controlled by the user: **${username}:**
 
 ![Image](/img/RS_HS256/auth_code.png)
 
