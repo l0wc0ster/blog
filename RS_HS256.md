@@ -1,6 +1,6 @@
 [back](/)
 
-### SQL injection in Node.js webapp through RS/HS256 public key mismatch vulnerability
+### SQL injection in Node.js webapp and JSON Web Tokens (JWT)
 
 What JSON Web Token (JWT) is? It is an open standard (RFC 7519) for creating access tokens, in accordance with which information is transmitted in the form of a JSON object. JSON signature algorithms are used to secure the transmission of such information. More information at: [jwt.io](https://jwt.io/introduction/). There are a number of interesting techniques for exploiting vulnerabilities in JWT, but in this example I would like to show the "RS/HS256 public key mismatch vulnerability" and SQL injection exploitation through this vulnerability.
 
