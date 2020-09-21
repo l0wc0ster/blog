@@ -29,7 +29,9 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:|
+| [SQL injection in Node.js webapp through RS/HS256 public key mismatch vulnerability](RS_HS256.md) | SEP 21 |
 | [Bypass csrf token with BurpSuite](csfr-bypass-burpsuite.md) | JUL 15 |
+
 
 
 <style type="text/css">
