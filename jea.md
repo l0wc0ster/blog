@@ -39,7 +39,7 @@ Test-PSSessionConfigurationFile -Path 'C:\Program Files\WindowsPowerShell\test.p
 
 ![Image](/img/jea/4.png)
 
-Create a .psrc role description file, the file name must be identical to the value of the 'RoleCapabilities' attribute
+Create a .psrc role description file, the file name name must be identical to the value of the 'RoleCapabilities' attribute
 
 ```
 New-Item -Path 'C:\Program Files\WindowsPowerShell\Modules\JEA\RoleCapabilities' -ItemType Directory
