@@ -21,6 +21,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:|
+| [Arbitary file read using Powershell JEA (Just Enough Administration)](jea.md) | OCT 25 |
 | [Privilege escalation kill chain: ldapmodify -> docker gid -> root](ldapmodify.md) | SEP 05 |
 | [Privilege Escalation via SeLoadDriverPrivilege](seload-driverprivilege.md) | JUL 24 |
 | [Privilege Escalation via Python Library Hijacking](python_lib_hijacking.md) | JUL 19 |
