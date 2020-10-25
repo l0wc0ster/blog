@@ -2,8 +2,6 @@
 
 ### Arbitary file read using Powershell JEA (Just Enough Administration)
 
-Arbitary file read using Powershell JEA (Just Enough Administration)
-
 Just Enough Administration (JEA) is a technology that allows you to delegate the administration of various windows components, first appeared in Powershell 5.0. JEA allows you to differentiate user rights to use commands, create functions for specific users of the system.
 In order to better understand the purpose of this technology, imagine that you need to delegate control of the DNS server to a specific domain user, without adding a user to the "Domain Admins" group, this will be very difficult to do, especially if the DC roles are within the same server. However, using JEA technology, it is possible to give the user minimal rights to administer the DNS server, for example, to restart the service or restore the cache.
 
@@ -13,13 +11,15 @@ Let's create a JEA connection point:
 
 First of all, let's create a .pssc configuration file:
 
+```
 New-PSSessionConfigurationFile -Path 'C:\Program Files\WindowsPowerShell\test.pssc'
+```
 
-screen
+![Image](/img/jea/1.png)
 
 The main parameters that need to be edited in this file:
 
-SessionType - RestrictedRemoteServer, will allow the following commands:
+***SessionType - RestrictedRemoteServer***, will allow the following commands:
 
 screen
 
