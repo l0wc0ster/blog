@@ -88,7 +88,7 @@ Now let's try to read the file that is in the administrator directory:
 
 ![Image](/img/jea/10.png)
 
-Thus, we got full access to the files in the system. Despite the fact that JEA provides a wonderful opportunity for delegation and differentiation of administrative rights, you need to be careful when creating your own functions =)
+Thus, we got full read access to the files in the system. Despite the fact that JEA provides a wonderful opportunity for delegation and differentiation of administrative rights, you need to be careful when creating your own functions =)
 
 <div id="disqus_thread"></div>
 <script>
