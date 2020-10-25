@@ -19,62 +19,74 @@ New-PSSessionConfigurationFile -Path 'C:\Program Files\WindowsPowerShell\test.ps
 
 The main parameters that need to be edited in this file:
 
-***SessionType - RestrictedRemoteServer***, will allow the following commands:
+**SessionType - RestrictedRemoteServer**, will allow the following commands:
 
-screen
+![Image](/img/jea/2.png)
 
-TranscriptDirectory - C:\logdir, directory where session log files will be created
+**TranscriptDirectory - C:\logdir**, directory where session log files will be created
 
-screen
+![Image](/img/jea/3.png)
 
-RunAsVirtualAccount - $true, start a session from under the virtual administrator account, this virtualization attribute allows you to run the commands specified in the configuration on behalf of the virtual administrator
+**RunAsVirtualAccount - $true**, start a session from under the virtual administrator account, this virtualization attribute allows you to run the commands specified in the configuration on behalf of the virtual administrator
 
-RoleDefinitions - @ {'hostname\username' = @ {'RoleCapabilities' = 'group_name'}}, description of the user and group with the ability to remotely connect to the session
+**RoleDefinitions - @ {'hostname\username' = @ {'RoleCapabilities' = 'group_name'}}**, description of the user and group with the ability to remotely connect to the session
 
 Check the validity of the configuration file
-Test-PSSessionConfigurationFile -Path 'C:\Program Files\WindowsPowerShell\test.pssc' -verbose
 
-screen
+```
+Test-PSSessionConfigurationFile -Path 'C:\Program Files\WindowsPowerShell\test.pssc' -verbose
+```
+
+![Image](/img/jea/4.png)
 
 Create a .psrc role description file, the file name must be identical to the value of the 'RoleCapabilities' attribute
 
+```
 New-Item -Path 'C:\Program Files\WindowsPowerShell\Modules\JEA\RoleCapabilities' -ItemType Directory
 New-PSRoleCapabilityFile -Path 'C:\Program Files\WindowsPowerShell\Modules\JEA\RoleCapabilities\test.psrc'
+```
 
 This file describes all the functions and commands that will be available to the user within this session.
 
-screen
+![Image](/img/jea/5.png)
 
 In the current example, the "Check-File" function has been created in the file with the role description, which allows you to read the contents of any files in the "D:\*" or "C:\ProgramData*" directory
 
 Now let's register the new configuration:
 
+```
 Register-PSSessionConfiguration -Name testadmin -Path 'C:\Program Files\WindowsPowerShell\test.pssc'
 
-screen
+```
+
+![Image](/img/jea/6.png)
 
 Next, restart WinRM and check that a new JEA connection point has appeared:
 
+```
 Restart-Service WinRM
 Get-PSSessionConfiguration | ft name
+```
 
-screen
+![Image](/img/jea/7.png)
 
 Done, let's try to log into the WinRM session using the new JEA configuration:
 
-screen
+![Image](/img/jea/8.png)
 
 Everything works, and we have a strictly limited set of commands, beyond which it is impossible to go, but you can try to use the created function "Check-File" to read arbitrary files with administrator privileges =)
 
 To do this, we need a user with link creation rights in the C:\ProgramData directory:
 
+```
 New-Item -ItemType Junction -Path 'C:\ProgramData\root' -Target 'C:\Users\Administrator'
+```
 
-screen
+![Image](/img/jea/9.png)
 
 Now let's try to read the file that is in the administrator directory:
 
-screen
+![Image](/img/jea/10.png)
 
 Thus, we got full access to the files in the system. Despite the fact that JEA provides a wonderful opportunity for delegation and differentiation of administrative rights, you need to be careful when creating your own functions =)
 
