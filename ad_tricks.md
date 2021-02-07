@@ -23,7 +23,7 @@ for i in $(cat /tmp/hash); do getTGT.py domain.local/domain_user@dc.domain.local
 
 ![Image](/img/ad_tricks/4.png)
 
-However, do not forget about the password policy in the domain, if it is installed then the brute-force method will block the target account. To query the **Account Lockout Policy**, you can run **network accounts / domain** command. After successfully selecting the password, you will be able to use it to remotely log in with WINRM, SMB, LDAP services, or to load the registry tree using for example:
+However, do not forget about the password policy in the domain, if it is installed then the brute-force method will block the target account. To query the **Account Lockout Policy**, you can run **network accounts /domain** command. After successfully selecting the password, you will be able to use it to remotely log in with WINRM, SMB, LDAP services, or to load the registry tree using for example:
 
 ```
 reg.py -k apt.htb.local query -keyName HKU -s command
@@ -33,7 +33,7 @@ reg.py -k apt.htb.local query -keyName HKU -s command
 
 ![Image](/img/ad_tricks/6.png)
 
-The machine "user$" in the domain has the "Replicate Directory Changes" permissions by default, which means you can perform DCSync attacks. Using the "Windows Defender command line utility", you can perform a reverse authentication request and get the netNTLM hash on the attacker, and then restore the original NTLM using rainbow tables on the crack.sh online service (if you get netNTLMv1)
+The machine **user$** in the domain has the **Replicate Directory Changes** permissions by default, which means you can perform DCSync attacks. Using the **Windows Defender command line utility**, you can perform a reverse authentication request and get the netNTLM hash on the attacker, and then restore the original NTLM using rainbow tables on the crack.sh online service (if you get netNTLMv1)
 
 ![Image](/img/ad_tricks/7.png)
 
