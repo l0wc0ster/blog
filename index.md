@@ -10,7 +10,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:|
-| [How to get NTLM hash from a domain controller machine user?](generic_write.md)| FEB 8 |
+| [From Windows Defender Command Line Utility to Domain Admin](ad_tricks.md)| FEB 8 |
 
 
 ## Articles 2020
