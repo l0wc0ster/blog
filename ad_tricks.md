@@ -1,6 +1,6 @@
 [back](/)
 
-### Arbitary file read using Powershell JEA (Just Enough Administration)
+### From Windows Defender Command Line Utility to Domain Admin
 
 ![Image](/img/ad_tricks/1.png)
 
