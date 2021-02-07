@@ -2,7 +2,7 @@
 
 ### Arbitary file read using Powershell JEA (Just Enough Administration)
 
-![Image](/img/jea/9.png)
+![Image](/img/ad_tricks/1.png)
 
 <div id="disqus_thread"></div>
 <script>
