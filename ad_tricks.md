@@ -2,7 +2,7 @@
 
 ### From Windows Defender Command Line Utility to Domain Admin
 
-Anyone who has been hacking an Active Directory domain knows that in the beginning it is necessary to pay special attention to the enumeration of open services. For example, it can be very efficient to enumerate users for Kerberos
+Anyone who has been hacking an Active Directory domain knows that in the beginning it is necessary to pay special attention to the enumeration of open services. For example, it can be very efficient to enumerate domain users by using Kerberos service
 
 ![Image](/img/ad_tricks/1.png)
 
