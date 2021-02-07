@@ -10,11 +10,11 @@ Using standard Windows firewall protection tools, administrators restrict access
 
 ![Image](/img/ad_tricks/winrm.png)
 
-It is very common for administrators to set up network-level protection for Brute Force attacks on SMB, LDAP, WINRM, HTTP services, and so on. However, it is often forgotten to limit the number of requests to Kerberos service. To brute force passwords for domain users you can generate a list of NTLM hashes and use the getTGT.py utility from the Impacket set. In this case, the brute-force attack will target a TGT ticket request with an encrypted timestamp using Kerberos Pre-Authentication. 
+It is very common for administrators to set up network-level protection for Brute Force attacks on SMB, LDAP, WINRM, HTTP services, and so on. However, it is often forgotten to limit the number of requests to Kerberos service. To brute force passwords for domain users you can generate a list of NTLM hashes and use the getTGT.py utility from the impacket set. In this case, the brute-force attack will target a TGT ticket request with an encrypted timestamp using Kerberos Pre-Authentication. 
 This short script will help you iterate through the TGT:
 
 ```
-for i in $ (cat / tmp / hash); run getTGT.py domain.local/alice@dc.domain.local -hashes: $ i -dc-ip dc.domain.local; echo $ i; ready | tee /tmp/tgt_log.txt
+for i in $(cat /tmp/hash); do getTGT.py domain.local/domain_user@dc.domain.local -hashes: $i -dc-ip dc.domain.local; echo $i; done | tee /tmp/tgt_log.txt
 ```
 
 ![Image](/img/ad_tricks/2.png)
