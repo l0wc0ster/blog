@@ -4,6 +4,14 @@
 Hello everyone, in this blog I will post interesting attack techniques and privilege escalation methods. For suggestions and comments, visit the [contacts](about.md).
 
 ---
+## Articles 2021
+
+### Working with Active Directory
+
+| Theme      | Posted date    |
+| :------ | ------:|
+| [How to get NTLM hash from a domain controller machine user?](generic_write.md)| FEB 8 |
+
 
 ## Articles 2020
 
