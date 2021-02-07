@@ -43,7 +43,7 @@ The machine **user$** account in the domain has the **Replicate Directory Change
 
 ![Image](/img/ad_tricks/10.png)
 
-To get the NTLM hash of the domain admin, you can use the secretsdump.py utility, from the impacket set by performing a DCSync attack
+To get the NTLM hash of the domain administrator, you can use the secretsdump.py utility, from the impacket set by performing a DCSync attack
 
 ![Image](/img/ad_tricks/11.png)
 
