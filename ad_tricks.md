@@ -6,11 +6,11 @@ Anyone who has been hacking an Active Directory domain knows that in the beginni
 
 ![Image](/img/ad_tricks/1.png)
 
-Using standard Windows firewall protection tools, administrators restrict access to services via ipv4, to find out what other interfaces are available for the host, only access to the msrpc 135/tcp service is required. In this case, using the IOXIDResolver interface and SimplePing () and ServerAlive2 () requests, you can get a list of internal interfaces, as well as the server hostname
+Using standard Windows firewall protection tools, administrators restrict access to services via ipv4, to find out what other interfaces are available for the host, only access to the msrpc 135/tcp service is required. In this case, using the IOXIDResolver interface and SimplePing() and ServerAlive2() requests, you can get a list of internal interfaces, as well as the server hostname
 
 ![Image](/img/ad_tricks/winrm.png)
 
-It is very common for administrators to set up network-level protection for Brute Force attacks on SMB, LDAP, WINRM, HTTP services, and so on. However, it is often forgotten to limit the number of requests to Kerberos service. To brute force passwords for domain users you can generate a list of NTLM hashes and use the getTGT.py utility from the impacket set. In this case, the brute-force attack will target a TGT ticket request with an encrypted timestamp using Kerberos Pre-Authentication. 
+It is very common for administrators to set up network-level protection to prevent Brute Force attacks on SMB, LDAP, WINRM, HTTP services, and so on. However, it is often forgotten to limit the number of requests to Kerberos service. To brute force passwords for domain users you can generate a list of NTLM hashes and use the getTGT.py utility from the impacket set. In this case, the brute-force attack will target a TGT ticket request with an encrypted timestamp using Kerberos Pre-Authentication. 
 This short script will help you iterate through the TGT:
 
 ```
