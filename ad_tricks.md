@@ -37,7 +37,7 @@ reg.py -k apt.htb.local query -keyName HKU -s
 
 ![Image](/img/ad_tricks/6.png)
 
-The **machine$** account in the domain has the **Replicate Directory Changes** permissions by default, which means you can perform DCSync attacks. Using the **Windows Defender command line utility**, you can perform a reverse authentication request and get the netNTLM hash on the attacker, and then restore the original NTLM using rainbow tables on the crack.sh online service (if you get netNTLMv1)
+The **machine$** account in the domain controller has the **Replicate Directory Changes** permissions by default, which means you can perform DCSync attacks. Using the **Windows Defender command line utility**, you can perform a reverse authentication request and get the netNTLM hash on the attacker, and then restore the original NTLM using rainbow tables on the crack.sh online service (if you get netNTLMv1)
 
 ![Image](/img/ad_tricks/7.png)
 
