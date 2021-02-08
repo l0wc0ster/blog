@@ -30,7 +30,7 @@ However, do not forget about the password policy in the domain, if it is install
 After successfully bruted users password, you will be able to use it to remotely log in with WINRM, SMB, LDAP services, or to load the registry tree using reg.py tool for example:
 
 ```
-reg.py -k apt.htb.local query -keyName HKU -s
+reg.py -k  dc.domain.local query -keyName HKU -s
 ```
 
 ![Image](/img/ad_tricks/5.png)
