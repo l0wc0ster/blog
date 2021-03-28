@@ -81,7 +81,7 @@ python3 jwt_tool.py CURRENT_JWT -T -S rs256 -pr /tmp/keys/privKey.key
 
 ![Image](/img/jwt/4.5.png)
 
-Before sending the JWT application, you need to start the http server to access the private key:
+Before sending the JWT application, you need to start the http-server to access the private key:
 
 ![Image](/img/jwt/5.png)
 
