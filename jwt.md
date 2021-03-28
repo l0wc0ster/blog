@@ -85,7 +85,7 @@ Before sending the JWT application, you need to start the http-server to access 
 
 ![Image](/img/jwt/5.png)
 
-The attacker gained access to the admin panel
+The attacker successfully gained access to the admin panel:
 
 ![Image](/img/jwt/6.png)
 
