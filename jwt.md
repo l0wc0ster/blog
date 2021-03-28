@@ -63,7 +63,7 @@ In this example, the attacker can try to replace the ip-address with his own, ha
 ssh-keygen -t rsa -b 4096 -m PEM -f privKey.key
 ```
 
-Initially, access to the admin panel is closed due to the set flag in PAYLOAD: **"admin_cap":"false"**.
+Initially, access to the admin panel is closed due to the set false value in PAYLOAD: **"admin_cap":"false"**.
 
 ![Image](/img/jwt/3.png)
 
