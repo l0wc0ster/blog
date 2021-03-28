@@ -27,7 +27,7 @@ hashcat -a 0 -m 16500 jwthash.txt wordlist.txt
 
 ![Image](/img/jwt/1.png)
 
-To parse JWT, you can use [jwt.io](https://jwt.io/) site or the [jwt_tool.py](https://github.com/ticarpi/jwt_tool) utility:
+For parse JWT you can use [jwt.io](https://jwt.io/) site or the [jwt_tool.py](https://github.com/ticarpi/jwt_tool) utility:
 
 ![Image](/img/jwt/2.png)
 
