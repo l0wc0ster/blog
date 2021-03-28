@@ -39,7 +39,7 @@ To generate JWT by [jwt_tool](https://github.com/ticarpi/jwt_tool):
 python3 jwt_tool.py -b -S hs256 -p 'keypass' $(echo -n '{"typ":"JWT","alg":"HS256"}' | base64).$(echo -n '{"data": {"username": "jaki"}}' | base64 -w0).
 ```
 
-In this case, it is represented an attack on the JWT, where the HEADER section uses reading the private key to decrypt the token:
+In this case, it is represented an attack on the JWT, where the HEADER section uses reading the private key to decrypt the token. Imagine you have user JWT token after registering on the web application, and your goal is to elevate your rights
 
 ```
 HEADER:
