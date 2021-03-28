@@ -54,7 +54,7 @@ PAYLOAD
 {
   "username": "root",
   "email": "1@test.ru",
-  "admin_cap": false --- change on true 
+  "admin_cap": "false" --- change on true 
 }
 ```
 
@@ -64,11 +64,11 @@ In this example, the attacker can try to replace the ip-address with his own, ha
 ssh-keygen -t rsa -b 4096 -m PEM -f privKey.key
 ```
 
-Initially, access to the admin panel is closed due to the set flag, in PAYLOAD: "admin_cap": "false".
+Initially, access to the admin panel is closed due to the set flag, in PAYLOAD: **"admin_cap":"false"**.
 
 ![Image](/img/jwt/3.png)
 
-There are two ways to encrypt a JWT with the "admin_cap": true flag and the "kid" HEADER key:
+There are two ways to encrypt a JWT with the **"admin_cap":"true"** flag and the "kid" HEADER key:
 
 1. Using the site https://jwt.io/
 2. Or using jwt_tool.py
