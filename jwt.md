@@ -39,7 +39,7 @@ To generate JWT:
 python3 jwt_tool.py -b -S hs256 -p 'keypass' $(echo -n '{"typ":"JWT","alg":"HS256"}' | base64).$(echo -n '{"data": {"username": "jaki"}}' | base64 -w0).
 ```
 
-An example of an attack on a JWT, where the HEADER section uses reading the private key, to decrypt the token:
+In this case, it is represented an attack on the JWT, where the HEADER section uses reading the private key to decrypt the token:
 
 ```
 HEADER:
