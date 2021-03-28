@@ -68,7 +68,7 @@ Initially, access to the admin panel is closed due to the set flag, in PAYLOAD: 
 
 ![Image](/img/jwt/3.png)
 
-There are two ways to encrypt a JWT with the **"admin_cap":"true"** flag and the "kid" HEADER key:
+Сonsidering that the web application uses **RS56 RSA signing**, there are two ways to encrypt a JWT with the **"admin_cap":"true"** flag and the "kid" HEADER key:
 
 1. Using the site https://jwt.io/
 2. Or using jwt_tool.py
