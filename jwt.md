@@ -19,7 +19,7 @@ To work with the JWT, [jwt_tool](https://github.com/ticarpi/jwt_tool) utility is
 
 In case there are no vulnerabilities, you can try to guess or brute the JWT encryption password and try to collect a new key with changed values. For example, set the flag **"is_admin":"true"** or something similar. In order to generate the appropriate JWT, that will be suitable for the application, a secret key is required.
 
-To dictionary brute force a JWT password:
+To brute force a JWT using a dictionary:
 
 ```
 hashcat -a 0 -m 16500 jwthash.txt wordlist.txt
