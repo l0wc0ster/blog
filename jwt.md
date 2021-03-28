@@ -3,7 +3,7 @@
 ### JSON Web Tokens exploitation (JWT hack tricks)
 
 What JSON Web Token (JWT) is? It is an open standard RFC 7519 for creating access tokens, in accordance with which information is transmitted in the form of a JSON object. 
-JSON signature algorithms are used to secure the transmission of such information. For more information about JWT read: jwt.io. 
+JSON signature algorithms are used to secure the transmission of such information. For more information about JWT read: [jwt.io](https://jwt.io/). 
 
 The JWT is divided into three sections, separated by a dot: **HEADER.PAYLOAD.SIGNATURE**
 
