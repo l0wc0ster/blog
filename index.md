@@ -10,13 +10,13 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:|
-| [JSON Web Tokens exploitation](jwt.md)| MAR 28 |
+| [From Windows Defender Command Line Utility to Domain Admin](ad_tricks.md)| FEB 8 |
 
 ### Auxillary techniques
 
 | Theme      | Posted date    |
 | :------ | ------:
-| [JSON Web Tokens exploitation](csfr-bypass-burpsuite.md) | JUL 15 |
+| [JSON Web Tokens exploitation](jwt.md) | MAR 28 |
 
 ## Articles 2020
 
