@@ -33,7 +33,7 @@ For parse JWT you can use [jwt.io](https://jwt.io/) site or the [jwt_tool](https
 
 ![Image](/img/jwt/2.5.png)
 
-To generate JWT by [jwt_tool](https://github.com/ticarpi/jwt_tool):
+To generate JWT by [jwt_tool](https://github.com/ticarpi/jwt_tool), using HMAC-SHA signing:
 
 ```
 python3 jwt_tool.py -b -S hs256 -p 'keypass' $(echo -n '{"typ":"JWT","alg":"HS256"}' | base64).$(echo -n '{"data": {"username": "jaki"}}' | base64 -w0).
