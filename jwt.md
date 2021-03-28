@@ -5,7 +5,7 @@
 What JSON Web Token (JWT) is? It is an open standard RFC 7519 for creating access tokens, in accordance with which information is transmitted in the form of a JSON object. 
 JSON signature algorithms are used to secure the transmission of such information. For more information about JWT read: jwt.io. 
 
-The JWT is divided into three sections, separated by a dot "." **HEADER.PAYLOAD.SIGNATURE**
+The JWT is divided into three sections, separated by a dot: **HEADER.PAYLOAD.SIGNATURE**
 
 To work with the JWT, [jwt_tool](https://github.com/ticarpi/jwt_tool) utility is best suited, which will allow exploiting the most popular vulnerabilities:
 
