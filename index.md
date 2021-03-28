@@ -16,7 +16,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:
-| [JSON Web Tokens exploitation](jwt.md) | MAR 28 |
+| [JSON Web Tokens exploitation (JWT hack tricks)](jwt.md) | MAR 28 |
 
 ## Articles 2020
 

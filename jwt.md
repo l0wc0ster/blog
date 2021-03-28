@@ -1,6 +1,6 @@
 [back](/)
 
-### JSON Web Tokens exploitation
+### JSON Web Tokens exploitation (JWT hack tricks)
 
 What JSON Web Token (JWT) is? It is an open standard RFC 7519 for creating access tokens, in accordance with which information is transmitted in the form of a JSON object. 
 JSON signature algorithms are used to secure the transmission of such information. For more information about JWT read: jwt.io. 
