@@ -26,7 +26,7 @@ Done
 
 Case 2:
 
-Imagine the situation when you need to get RCE on Linux server, using the Redis database. At the same time, you have a password for the database, or you can go to the base anonymously. In this case, you can try to record the public key to the authorized_keys file along the path /var/lib/redis/.ssh.
+Imagine the situation when you need to get RCE on Linux server, using the Redis database. At the same time, you have a password for the database, or you can go to the base anonymously. In this case, you can try to record the public key to the authorized_keys file along the path /var/lib/redis/.ssh/
 
 ```
 ssh-keygen -t rsa -C "root@myhost"
