@@ -12,15 +12,15 @@ Case 1:
 
 «Portable Kanban» is a planning management application, uses Redis database. To access the database, a password is required, which can be obtained in encrypted form from the PortableKanban.cfg file. Taking the basis of [exploit](https://www.exploit-db.com/exploits/49409) decrypt the password:
 
-![Image](/img/reids/1.png)
+![Image](/img/redis/1.png)
 
 Having received an cleartext password to connect to the Redis database, u can use the redis-cli utility.
 
-![Image](/img/reids/2.png)
+![Image](/img/redis/2.png)
 
 Using «KEYS \*» and «GET key» commands, you can get the key values stored in the Redis database. Than decrypt the Administrator user password and check its validity.
 
-![Image](/img/reids/3.png)
+![Image](/img/redis/3.png)
 
 Done
 
