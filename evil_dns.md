@@ -34,7 +34,7 @@ python3 gMSADumper.py -u username -p password -d domain.ru
 
 ![Image](/img/evil_dns/6.png)
 
-SVC_INT user has the ability to request a service ticket and impersonate it for any user. Using in this case, the S4U2SELF / S4U2Proxy mechanism can be obtained by the privileges of the domain administrator.
+SVC_INT user has the ability to request a service ticket and impersonate it for any user. Using in this case, the S4U2SELF/S4U2Proxy mechanism can be obtained by the privileges of the domain administrator.
 
 ![Image](/img/evil_dns/7.png)
 
