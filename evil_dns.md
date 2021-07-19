@@ -16,7 +16,7 @@ python3 dnstool.py -u 'yourdomain.ru\Tiffany.Molina' -p password --action add -r
 
 ![Image](/img/evil_dns/3.png)
 
-After successfully adding a DNS entry associated with an IP attacker, you can get domain user netNTLM hash, that will access to the added DNS name fot example by smb or http with network netNTLM authentication. Moreover, this DNS record looks reliable, from the point of view of confidence in the resource. This can be used for targeted attacks.
+After successfully adding a DNS entry associated with an IP attacker, you can get domain user netNTLM hash, that will access to the added DNS name for example by smb or http with network netNTLM authentication. Moreover, this DNS record looks reliable, from the point of view of confidence in the resource. This can be used for targeted attacks.
 
 So, after running Responder we get netNTLMV2 hash:
 
@@ -51,6 +51,7 @@ After receiving the service ticket and export it to the environment, you can use
 Useful links:
 
 + [DNSTool](https://github.com/dirkjanm/krbrelayx)
++ [gMSADumper](https://github.com/micahvandeusen/gMSADumper)
 + [Impacket](https://github.com/SecureAuthCorp/impacket)
 + [BloodHound](https://github.com/BloodHoundAD/BloodHound)
 
