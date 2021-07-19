@@ -48,6 +48,11 @@ getST.py -spn HOST/SQL01.DOMAIN 'DOMAIN/user:password'  -hashes :NTLM-hash -impe
 
 After receiving the service ticket and export it to the environment, you can use the wmiexec.py to get interactive access to domain controller
 
+Useful links:
+
++ [DNSTool](https://github.com/dirkjanm/krbrelayx)
++ [Impacket](https://github.com/SecureAuthCorp/impacket)
++ [BloodHound](https://github.com/BloodHoundAD/BloodHound)
 
 <div id="disqus_thread"></div>
 <script>
