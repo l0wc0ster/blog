@@ -7,7 +7,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ## Articles 2021
 
 
-###Client-side attacks
+###Client-Side Attacks
 
 | Theme      | Posted date    |
 | :------ | ------:|
