@@ -5,7 +5,7 @@
 Imagine that clicking on the received link from a trusted user is normal =)
 
 Despite all the irony, this behavior is quite typical for ordinary users who do not think about how safe the code of web applications that are open in their browser, in numerous tabs, is written.
-This is about **Tab-nabbing** attack. The essence of which is to open a new tab in the victim's browser, the link to which is indicated with html tag **target = "_blank"** attribute, but without **rel = "noopener nofollow"** tag.
+This is about **Tab-nabbing** attack. The essence of which is to open a new tab in the victim's browser, the link to which is indicated with html tag **target="_blank"** attribute, but without **rel="noopener nofollow"** tag.
 
 ```
 <a href="https://anylink.com target="_blank"> GoToAnyLink </a>
@@ -28,7 +28,7 @@ Check my notes
 
 ![Image](/img/tabnabbing/1.png)
 
-Any vulnerable navigation to a new tab in the browser where the code is delimited by the tag **target ="_blank "** will be redirected to the page **http://attacker-server/index.html**.
+Any vulnerable navigation to a new tab in the browser where the code is delimited by the tag **target ="_blank"** will be redirected to the page **http://attacker-server/index.html**.
 
 ![Image](/img/tabnabbing/2.png)
 
