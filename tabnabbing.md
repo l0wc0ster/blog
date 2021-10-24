@@ -1,6 +1,6 @@
 [back](/)
 
-### Tab-nabbing attack to stealing cred
+### Tab-nabbing attack to stealing creds
 
 Imagine that clicking on the received link from a trusted user is normal =)
 
