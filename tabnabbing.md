@@ -32,7 +32,7 @@ Any vulnerable navigation to a new tab in the browser where the code is delimite
 
 ![Image](/img/tabnabbing/2.png)
 
-At the same time, the attacker can clone the authorization page to the vulnerable page using «httrack» or any similar utility. In this case, unnoticed by the victim, a transition will be made to the tab with the vulnerable site. As a rule, in such cases, the victim enters his username and password, assuming that the timed out session has expired. As a result, the attacker can easily obtain the victim's login and password using a web server with the ability to log POST requests.
+At the same time, the attacker can clone the authorization page to the vulnerable page using **httrack** or any similar utility. In this case, unnoticed by the victim, a transition will be made to the tab with the vulnerable site. As a rule, in such cases, the victim enters his username and password, assuming that the timed out session has expired. As a result, the attacker can easily obtain the victim's login and password using a web server with the ability to log POST requests.
 
 ![Image](/img/tabnabbing/3.png)
 
