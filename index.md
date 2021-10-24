@@ -6,19 +6,24 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 ---
 ## Articles 2021
 
-### Working with Active Directory
+
+###Client-side attacks
 
 | Theme      | Posted date    |
 | :------ | ------:|
 | [Tab-nabbing attack to stealing creds](tabnabbing.md) | OCT 24 |
+
+### Working with Active Directory
+
+| Theme      | Posted date    |
+| :------ | ------:|
 | [Evil DNS zone and Constrained Delegation in Active Directory](evil_dns.md) | JUL 19 |
 | [From Windows Defender Command Line Utility to Domain Admin](ad_tricks.md)| FEB 8 |
-
 
 ### Auxillary techniques
 
 | Theme      | Posted date    |
-| :------ | ------:
+| :------ | ------:|
 | [Working with Redis DB](redis.md) | ARP 19 |
 | [JSON Web Tokens exploitation (JWT hack tricks)](jwt.md) | MAR 28 |
 
