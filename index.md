@@ -10,6 +10,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:|
+| [Tab-nabbing attack to stealing creds](tabnabbing.md) | OCT 24 |
 | [Evil DNS zone and Constrained Delegation in Active Directory](evil_dns.md) | JUL 19 |
 | [From Windows Defender Command Line Utility to Domain Admin](ad_tricks.md)| FEB 8 |
 
