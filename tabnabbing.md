@@ -11,7 +11,7 @@ This is about **Tab-nabbing** attack. The essence of which is to open a new tab 
 <a href="https://anylink.com target="_blank"> GoToAnyLink </a>
 ```
 
-In this case «something.html» page is opened in the victim's browser with the code:
+In this case **something.html** page is opened in the victim's browser with the code:
 
 ```
 <html>
