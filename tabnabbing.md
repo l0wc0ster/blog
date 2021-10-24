@@ -36,7 +36,7 @@ At the same time, the attacker can clone the authorization page to the vulnerabl
 
 ![Image](/img/tabnabbing/3.png)
 
-Thus, the attacker receives a username and password from the victim with a minimum set of tools and labor costs. In total for the attack you need: a web server with the ability to log POST requests, a phishing web page for authorization and a payload in the form of an html file
+Thus, the attacker receives a username and password from the victim with a minimum set of tools and time spent. In total for the attack you need: a web server with the ability to log POST requests, a phishing web page for authorization and a payload in the form of an html file
 
 ![Image](/img/tabnabbing/4.png)
 
