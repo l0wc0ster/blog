@@ -64,4 +64,4 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
   text-align: center;
    } 
 </style>
-<div class="block1">&copy; 2021 Sergey Budilov</div>
+<div class="block1">&copy; 2022 Sergey Budilov</div>
