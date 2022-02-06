@@ -6,11 +6,11 @@ JWKS is a set of public keys for validating a JWT token signed with the RSA encr
 
 ![Image](/img/jwks/3.png)
 
-Imagine a case, in front of you is a site with open user registration, as a result, the user is issued a JWT token with the RS256 signature algorithm.
+Imagine a case, in front of you is a site with open user registration, as a result, the user is issued a JWT token with the RS256 signature algorithm. 
 
 ![Image](/img/jwks/1.png)
 
-The JWT token header contains the **jku** parameter with a pointer to the JWKS for validation.
+The JWT token header contains the **jku** parameter with a pointer to the JWKS for validation. FQDN verification is used for this parameter.
 
 ![Image](/img/jwks/2.png)
 
