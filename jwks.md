@@ -19,7 +19,7 @@ At the same time, during the reconnaissance of the site, the **Open Redirect** v
 ![Image](/img/jwks/4.png)
 
 What can be done to elevate privileges on a web resource with such information? You can get the privileges of any known user, including administrator.
-The first thing to do is to change the values of the JWT token headers: **HEADER** and **PAYLOAD**, [jwt_tool](https://github.com/ticarpi/jwt_tool) is suitable for this task
+The first thing to do is to change the values of the JWT token headers: **HEADER** and **PAYLOAD**, [jwt_tool](https://github.com/ticarpi/jwt_tool) is suitable for this task.
 We use the found **Open Redirect** vulnerability to redirect the request to our own malicious server so that the domain validation check is successful. In the next step, we will change the **PAYLOAD** header and indicate the intended user login: **admin**.
 
 ![Image](/img/jwks/5.png)
