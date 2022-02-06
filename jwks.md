@@ -71,6 +71,10 @@ As a result of the actions performed, we get access to the web resource with adm
 
 As you can see, thanks to not cunning manipulations, we have raised our privileges and our mood. Stay safe and remember that even minor vulnerabilities can be critical =)
 
++ [JSON Web Key RFC](https://datatracker.ietf.org/doc/html/rfc7517)
++ [JSON Web Key generator](https://mkjwk.org/)
++ [JWT Decoder, Verifier, Generator, Decryptor](https://dinochiesa.github.io/jwt/)
+
 <div id="disqus_thread"></div>
 <script>
 (function() { // DON'T EDIT BELOW THIS LINE
