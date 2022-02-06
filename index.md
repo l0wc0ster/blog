@@ -4,8 +4,16 @@
 Hello everyone, in this blog I will post interesting attack techniques and privilege escalation methods. For suggestions and comments, visit the [contacts](about.md).
 
 ---
-## Articles 2021
 
+## Articles 2022
+
+### Auxillary techniques
+
+| Theme      | Posted date    |
+| :------ | ------:|
+| [JWKS Spoofing and Open Redirect friends forever](jwks.md) | FEB 6 |
+
+## Articles 2021
 
 ### Client-Side Attacks
 
