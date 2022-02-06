@@ -1,6 +1,6 @@
 [back](/)
 
-### «JWKS Spoofing» and «Open Redirect» friends forever
+### JWKS Spoofing and Open Redirect friends forever
 
 JWKS is a set of public keys for validating a JWT token signed with the RSA encryption algorithm.
 
