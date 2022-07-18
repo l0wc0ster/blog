@@ -201,7 +201,7 @@ getTGT.py scrm.local/ksimpson@scrm.local -aesKey 'yourkey'
 # and then Kerberos authentication
 ```
 
-If ldap/ldaps ports are blocked but gc port (3268) is accessible - just fix ldap:// protocol to gc:// in impacket.
+If ldap/ldaps ports are blocked but gc port 3268 is accessible - just fix ldap:// protocol to gc:// in impacket.
 So we have several accounts, a lot of information from AD, how do we move on? First, you need to check those accounts in the Bloodhound database that you already have, carefully study their rights, groups, permissions. If you have cleartext passwords for SPN account - go back to them and try to go to the server specified in TGS using:
 
 ```
