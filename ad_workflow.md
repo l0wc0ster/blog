@@ -12,7 +12,7 @@ To study the network, you can use the wireshark utility, we will find out which 
 
 ```
 arp -a
-route-n
+route -n
 cat /etc/resolv.conf - if the address was assigned by DHCP
 ```
 
@@ -54,7 +54,7 @@ Why are we doing this? What is the purpose of these actions? In order to launch 
 
 While our fishing utils are set to MITM attack, it will not be superfluous to look for a mask of account logins. Each company has its own domain account mask, someone uses only last names, someone combines first and last names, someone uses depersonalized accounts, for example, a set of letters or numbers that are not related to the employee in any way, and this approach is considered the most effective in terms of AD privacy protection.
 
-The account mask can be found using document metadata, can be searched on the web using google queries **site: jaki.local filetype:doc / pdf / docx / xlsx**, or use specialized software such as Foca.
+The account mask can be found using document metadata, can be searched on the web using google queries **site:jaki.local filetype:doc / pdf / docx / xlsx**, or use specialized software such as Foca.
 
 It will also be very efficient to go through the file shares - 445/tcp, because we have already performed a network scan after determining the addressing. Then you should look for network shares open for reading:
 
