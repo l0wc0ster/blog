@@ -313,7 +313,7 @@ SESSION 2 yes The session to run this module on.
 ```
 
 Spawn BEACON from meterpreter to cobalt strike v2
-We generate shellcode via Cobalt Strike - Attacks - Packages - Windows Executable (S) - raw
+We generate shellcode via Cobalt Strike -> Attacks -> Packages -> Windows Executable (S) -> raw
 
 ```
 2. msf6 post(windows/manage/shellcode_inject) > show options
