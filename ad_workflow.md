@@ -115,8 +115,11 @@ while read line; do echo $line && ruby evil-winrm.rb -u $line -i 10.10.1.1 -H NT
 
 ```
 
+or just use modules from **Metasploit Framework**. To use spray and avoid interactive login, generate NTLM:
 
-or just use modules from **Metasploit Framework**. To use spray and avoid interactive login, generate NTLM: **echo -n "password" | iconv -t UTF-16LE | openssl md4**
+```
+echo -n "password" | iconv -t UTF-16LE | openssl md4
+```
 
 Ultimately, you should have an active account in the domain. First of all, you need to get an AD dump and examine user rights, RDP connection permissions, user sessions, server names and GPOs. These can all be obtained with Bloodhound Collectors. But in order not to be noticed by antivirus or EDR, you can use network dump collection via Bloodhound.py:
 
