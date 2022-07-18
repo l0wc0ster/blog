@@ -312,7 +312,7 @@ PID 1752 no Process Identifier to inject of process to inject payload.
 SESSION 2 yes The session to run this module on.
 ```
 
-Spawn BEACON from meterpreter to cobalt strike v2
+Spawn BEACON from meterpreter to cobalt strike v2.
 We generate shellcode via Cobalt Strike -> Attacks -> Packages -> Windows Executable (S) -> raw
 
 ```
