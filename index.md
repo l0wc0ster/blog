@@ -7,6 +7,12 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ## Articles 2022
 
+### Working with Active Directory
+
+| Theme      | Posted date    |
+| :------ | ------:|
+| [Active Directory Methodology](ad_workflow.md) | JUL 18 |
+
 ### Auxillary techniques
 
 | Theme      | Posted date    |
