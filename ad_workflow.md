@@ -19,7 +19,7 @@ cat /etc/resolv.conf - if the address was assigned by DHCP
 At a minimum, having gained access to the network, we have DNS addresses, which usually have the same role as the domain controller. So we can do a network scan, for example, it will effectively check open ports: 
 
 ```
-80,443,22,5432,1433,3306,1080,8080,8081,8888,8088,8086,6379,21,8443,23,25,5555,4444,2222,3333,3000,5000,8000,9000,9050,5050,5900,389,636,445,111,135,139,5060,79,5985,5986,1090,1098,1099,11099,47001,47002,10999,7000-7004,8000-8003,9000-9003,9503,7070,7071,45000,45001,8686,9012,50500,4848,11111,4445,4786,5556
+80,443,22,5432,1433,3306,1080,8080,8081,8888,8088,8086,6379,21,8443,23,25,5555,4444,2222,3333,3000,5000,8000,9000,9050,5050,5900,389,636,445,111,135,139,5060,79,5985,5986,1090,1098,1099,11099,47001,47002,10999,7000-7004,8000-8003,9000-9003,9503,7070,7071,45000,45001,8686,9012,50500,4848,11111,4445,4786,5556,3268
 ```
 
 At the same time, it will be effective to use MITM attacks, or infection of name resolution protocols in IP addresses.
@@ -197,6 +197,7 @@ getTGT.py scrm.local/ksimpson@scrm.local -aesKey 'yourkey'
 # and then Kerberos authentication
 ```
 
+If ldap/ldaps ports are blocked but gc port (3268) is accessible - just fix ldap:// protocol to gc:// in impacket.
 So we have several accounts, a lot of information from AD, how do we move on? First, you need to check those accounts in the Bloodhound database that you already have, carefully study their rights, groups, permissions. If you have cleartext passwords for SPN account - go back to them and try to go to the server specified in TGS using:
 
 ```
