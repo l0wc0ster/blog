@@ -237,7 +237,7 @@ If at the current stage you have not been able to move forward within the latera
 Don't forget the techniques for getting a domain administrator using [AD CS](https://research.ifcr.dk/certipy-2-0-bloodhound-new-escalations-shadow-credentials-golden-certificates-and-more-34d1c26f0dc6). The most common privilege escalation techniques are ESC1 and ESC8.
 
 
-### ESC1 - Template Enrollment Rights abuse - technique understanding:
+### Template Enrollment Rights abuse ESC1 - technique understanding:
 
 Client Authentication: True + Extended Key Usage: Client Authentication - cert maybe to be used for authentication
 
@@ -264,7 +264,7 @@ certification auth -pfx admin.pfx
 # and get NTLM admin hash
 ```
 
-### ESC8 - NTLM Relay to AD CS HTTP Endpoints - technique understanding:
+###  NTLM Relay to AD CS HTTP Endpoints ESC8 - technique understanding:
 
 Web Enrollment: Enabled - the ability to issue a certificate through a web request
 
