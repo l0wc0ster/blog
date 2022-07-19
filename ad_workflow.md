@@ -386,7 +386,7 @@ instead of this:
 target = self.getMachineName()
 ```
 
-### Some bypass methods
+### Some bypass methods:
 
 To bypass protection systems such as NGFW, MSATA, EDR, AV:
 
