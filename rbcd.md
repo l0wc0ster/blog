@@ -6,7 +6,7 @@ Each domain user, by default, has permission to add 10 computers to the domain. 
 
 ![Image](/img/rbcd/1.png)
 
-First of all lets get dome useful tools:
+First of all lets get some useful tools:
 
 ```
 git clone https://github.com/Kevin-Robertson/Powermad
