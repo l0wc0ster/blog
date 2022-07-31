@@ -11,6 +11,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:|
+| [Resource-based Constrained Delegation](rbcd.md) | JUL 31 |
 | [Active Directory Methodology](ad_workflow.md) | JUL 18 |
 
 ### Auxillary techniques
