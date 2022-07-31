@@ -12,7 +12,7 @@ First of all lets get dome useful tools:
 git clone https://github.com/Kevin-Robertson/Powermad
 git clone https://github.com/SecureAuthCorp/impacket
 git clone https://github.com/GhostPack/Rubeus
-wget  https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1
+wget https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1
 ```
 
 Step-by-step privesc:
@@ -58,7 +58,6 @@ export KRB5CCNAME=admin.ccache
 
 wmiexec.py dc.jaki.local -k 
 ```
-
 
 Useful links:
 
