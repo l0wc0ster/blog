@@ -32,4 +32,4 @@ s.setAttribute('data-timestamp', +new Date());
   text-align: center;
    } 
 </style>
-<div class="block1">&copy; 2020 Sergey Budilov</div>
+<div class="block1">&copy; 2023 Sergey Budilov</div>
