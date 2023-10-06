@@ -116,21 +116,21 @@ So we have 3 different types of constrained delegation:
 
 | msds-allowedtodelegateto / Constrained w/o Protocol Transition |
 |:-------------|
-| Service Constrained delegation without Protocol Transition |
-| Use kerberos only |
-| [!] Self Constrained delegation technique without KB5014692 patch |
-| [!] Additional SPN account technique with KB5014692 patch |
+| - Service Constrained delegation without Protocol Transition |
+| - Use kerberos only |
+| - Self Constrained delegation technique without KB5014692 patch |
+| - Additional SPN account technique with KB5014692 patch |
 
 | msds-allowedtodelegateto / Constrained w/ Protocol Transition |
 |:-------------|
-| Service constrained delegation with Protocol Transition |
-| Use any authentication protocol |
-| [!] Easy to use s4u2self and s4u2proxy chain |
+| - Service constrained delegation with Protocol Transition |
+| - Use any authentication protocol |
+| - Easy to use s4u2self and s4u2proxy chain |
 
 | msds-allowedtoactonbehalfofotheridentity |
 |:-------------|
-| Resource-based Constrained Delegation |
-| [!] Easy to use s4u2self and s4u2proxy chain |
+| - Resource-based Constrained Delegation |
+| - Easy to use s4u2self and s4u2proxy chain |
 
 Each type of сonstrained delegation is operated differently and has its own options. The script from the impacket library findDelegation.py shows well the difference in the delegation attributes found. But you can also use Get-DomainObject
 
