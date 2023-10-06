@@ -112,9 +112,9 @@ I tested different types of collectors, such as dump collection from the network
 
 About Constrained Delegation. So we have 3 different types of constrained delegation:
 
-..* msds-allowedtoactonbehalfofotheridentity - Resource-based Constrained Delegation
-..* msds-allowedtodelegateto - Constrained w/ Protocol Transition - Service Constrained Delegation - use any authentication protocol
-..* msds-allowedtodelegateto - Constrained w/o Protocol Transition - Service Constrained Delegation - use kerberos only
+* msds-allowedtoactonbehalfofotheridentity - Resource-based Constrained Delegation
+* msds-allowedtodelegateto - Constrained w/ Protocol Transition - Service Constrained Delegation - use any authentication protocol
+* msds-allowedtodelegateto - Constrained w/o Protocol Transition - Service Constrained Delegation - use kerberos only
 
 
 
