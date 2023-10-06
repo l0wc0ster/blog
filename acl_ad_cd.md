@@ -112,17 +112,17 @@ I tested different types of collectors, such as dump collection from the network
 
 #### About Constrained Delegation. So we have 3 different types of constrained delegation:
 
-- msds-allowedtodelegateto / Constrained w/o Protocol Transition
+1. msds-allowedtodelegateto / Constrained w/o Protocol Transition
 	- Service Constrained Delegation
 		- Use kerberos only
 			- Self Constrained delegation without KB5014692
 			- Additional SPN account for KB5014692
 
-- msds-allowedtodelegateto / Constrained w/ Protocol Transition
+2. msds-allowedtodelegateto / Constrained w/ Protocol Transition
 	- Service Constrained Delegation
 		- Use any authentication protocol
 
-- msds-allowedtoactonbehalfofotheridentity
+3. msds-allowedtoactonbehalfofotheridentity
 	- Resource-based Constrained Delegation
 
 Each type of сonstrained delegation is operated differently and has its own characteristics. The script from the impacket library findDelegation.py shows well the difference in the msds-allowedtodelegateto attributes found. But you can also use Get-DomainObject
