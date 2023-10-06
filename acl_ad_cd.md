@@ -114,21 +114,17 @@ I tested different types of collectors, such as dump collection from the network
 
 So we have 3 different types of constrained delegation:
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-
 #### msds-allowedtodelegateto / Constrained w/o Protocol Transition
-
 > Service Constrained delegation without Protocol Transition
+>
 > Use kerberos only
+>
 > Self Constrained delegation technique without KB5014692 patch
+>
 > Additional SPN account technique with KB5014692 patch
 
 #### msds-allowedtodelegateto / Constrained w/ Protocol Transition
-[x] Service constrained delegation with Protocol Transition
+> Service constrained delegation with Protocol Transition
 [x] Use any authentication protocol
 [x] Easy to use s4u2self and s4u2proxy chain
 
