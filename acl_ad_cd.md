@@ -176,6 +176,7 @@ dnshostname                    : gmsa.domain.ru
 ```
 
 
+
 #### Self Constrained delegation without Protocol Transition:
 
 For the machine account delegator$ constrained delegation without protocol transition is configured for http/dc01.domain.ru service. To abuse this type of delegation, you can assign the RBCD (Resource-based Constrained Delegation) attribute to yourself (delegator$) and then perform TGS service ticket requests using impacket-getST. Please note how s4u2self and s4u2proxy works in this case.
