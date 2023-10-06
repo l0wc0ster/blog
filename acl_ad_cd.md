@@ -125,7 +125,7 @@ I tested different types of collectors, such as dump collection from the network
 3. msds-allowedtoactonbehalfofotheridentity
 	- Resource-based Constrained Delegation
 
-Each type of сonstrained delegation is operated differently and has its own characteristics. The script from the impacket library findDelegation.py shows well the difference in the msds-allowedtodelegateto attributes found. But you can also use Get-DomainObject
+Each type of сonstrained delegation is operated differently and has its own options. The script from the impacket library findDelegation.py shows well the difference in the delegation attributes found. But you can also use Get-DomainObject
 
 ![Image](/img/acl_ad_cd/2.png)
 
