@@ -114,12 +114,12 @@ I tested different types of collectors, such as dump collection from the network
 
 So we have 3 different types of constrained delegation:
 
-| msds-allowedtodelegateto / Constrained w/o Protocol Transition | |
+| msds-allowedtodelegateto / Constrained w/o Protocol Transition |
 |:-------------|
 | Service Constrained delegation without Protocol Transition |
 | Use kerberos only |
-| | [!] Self Constrained delegation technique without KB5014692 patch |
-| | [!] Additional SPN account technique with KB5014692 patch |
+| 	[!] Self Constrained delegation technique without KB5014692 patch |
+| 	[!] Additional SPN account technique with KB5014692 patch |
 
 **msds-allowedtodelegateto / Constrained w/o Protocol Transition**
 > [!] Service Constrained delegation without Protocol Transition
