@@ -175,7 +175,7 @@ dnshostname                    : gmsa.domain.ru
 
 ```
 
-### Self Constrained delegation without Protocol Transition:
+### Self Constrained delegation without Protocol Transition (without KB5014692 patch):
 
 For the machine account delegator$ constrained delegation without protocol transition is configured for http/dc01.domain.ru service. To abuse this type of delegation, you can assign the RBCD (Resource-based Constrained Delegation) attribute to yourself (delegator$) and then perform TGS service ticket requests using impacket-getST. Please note how s4u2self and s4u2proxy works in this case.
 
@@ -190,7 +190,7 @@ impacket-getST -impersonate "dc01$" "domain.ru/delegator$" -k -no-pass -spn "htt
 
 However, this method may not work if patch [KB5014692](https://twitter.com/_nwodtuhs/status/1543572195217182721) is installed. In this case, you need another machine account, or any account with the SPN attribute.
 
-### Constrained delegation without Protocol Transition (additional SPN account):
+### Constrained delegation without Protocol Transition and additional SPN account (with KB5014692 patch):
 
 ```
 getTGT.py domain.ru/'delegator$' -hashes :fcb5ae2b5e8c05d7a938bbe8649e4a44 -dc-ip 10.10.10.100
