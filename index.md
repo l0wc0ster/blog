@@ -13,6 +13,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 | :------ | ------:|
 | [Difference in delegation abuse techniques](acl_ad_cd.md) | OCT 6 |
 
+
 ## Articles 2022
 
 ### Working with Active Directory
@@ -27,6 +28,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 | Theme      | Posted date    |
 | :------ | ------:|
 | [JWKS Spoofing and Open Redirect friends forever](jwks.md) | FEB 6 |
+
 
 ## Articles 2021
 
@@ -49,6 +51,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 | :------ | ------:|
 | [Working with Redis DB](redis.md) | ARP 19 |
 | [JSON Web Tokens exploitation (JWT hack tricks)](jwt.md) | MAR 28 |
+
 
 ## Articles 2020
 
