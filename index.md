@@ -5,6 +5,14 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 ---
 
+## Articles 2023
+
+### Working with Active Directory
+
+| Theme      | Posted date    |
+| :------ | ------:|
+| [Resource-based Constrained Delegation](acl_ad_cd.md) | OCT 6 |
+
 ## Articles 2022
 
 ### Working with Active Directory
