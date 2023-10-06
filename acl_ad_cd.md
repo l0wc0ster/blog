@@ -7,7 +7,7 @@ We often come across the delegation of services or resources in Active Directory
 A few words about searching for insecure ACLs in Active Directory:
 
 I recently ran into a problem collecting a rather important attribute **ActiveDirectoryRights: Self**.
-The fact is that when collecting an AD dump, for example through BloodHound Collector, this attribute is not taken when building object links. However, his abuse will help the user add himself to the appropriate group to which the user's SecurityIdentifier is assigned. More details are described [here](https://zflemingg1.gitbook.io/undergrad-tutorials/active-directory-acl-abuse/self).
+The fact is that when collecting an AD dump, for example through BloodHound Collector, this attribute is not taken when building object links. However, it's abuse will help the user add himself to the appropriate group to which the user's SecurityIdentifier is assigned. More details are described [here](https://zflemingg1.gitbook.io/undergrad-tutorials/active-directory-acl-abuse/self).
 
 ```
 ObjectDN               : CN=ServiceMgmt,CN=Users,DC=domain,DC=ru
