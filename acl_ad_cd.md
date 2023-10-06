@@ -124,7 +124,7 @@ So we have 3 different types of constrained delegation:
 - Service Constrained Delegation
 	- Use any authentication protocol
 
-### msds-allowedtoactonbehalfofotheridentity
+#### msds-allowedtoactonbehalfofotheridentity
 - Resource-based Constrained Delegation
 
 Each type of сonstrained delegation is operated differently and has its own options. The script from the impacket library findDelegation.py shows well the difference in the delegation attributes found. But you can also use Get-DomainObject
