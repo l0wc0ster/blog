@@ -113,14 +113,14 @@ I tested different types of collectors, such as dump collection from the network
 #### About Constrained Delegation. So we have 3 different types of constrained delegation:
 
 - msds-allowedtodelegateto / Constrained w/o Protocol Transition
-		- Service Constrained Delegation
-			- Use kerberos only
-				- Self Constrained delegation without KB5014692
-				- Additional SPN account for KB5014692
+	- Service Constrained Delegation
+		- Use kerberos only
+			- Self Constrained delegation without KB5014692
+			- Additional SPN account for KB5014692
 
 - msds-allowedtodelegateto / Constrained w/ Protocol Transition
-		- Service Constrained Delegation
-			- Use any authentication protocol
+	- Service Constrained Delegation
+		- Use any authentication protocol
 
 - msds-allowedtoactonbehalfofotheridentity
 	- Resource-based Constrained Delegation
