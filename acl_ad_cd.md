@@ -128,7 +128,6 @@ So we have 3 different types of constrained delegation:
 > Use any authentication protocol
 > Easy to use s4u2self and s4u2proxy chain
 
-#### msds-allowedtoactonbehalfofotheridentity
 **msds-allowedtoactonbehalfofotheridentity**
 > Resource-based Constrained Delegation
 > Easy to use s4u2self and s4u2proxy chain
