@@ -110,7 +110,9 @@ So we found out that jaki can add himself to the ServiceMgmt group, although as 
 
 I tested different types of collectors, such as dump collection from the network [Bloodhound.py](https://github.com/dirkjanm/BloodHound.py), as well as standard collectors from the repository [Bloodhound Collectors](https://github.com/BloodHoundAD/BloodHound/tree/master/Collectors), as a result we never saw this **ActiveDirectoryRights: Self** attribute. By the way, the BloodHound network collector very often skips ACL collection as such, so i try to use .exe or .ps1
 
-### About Constrained Delegation. So we have 3 different types of constrained delegation:
+### About Constrained Delegation:
+
+So we have 3 different types of constrained delegation:
 
 1. msds-allowedtodelegateto / Constrained w/o Protocol Transition
 	* Service Constrained Delegation
