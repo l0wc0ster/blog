@@ -1,6 +1,6 @@
 [back](/blog)
 
-### Difference in delegation abuse techniques
+### Difference in constrained delegation abuse techniques
 
 We often come across the delegation of services or resources in Active Directory. But sometimes it is difficult to find the necessary ways of abuse for such privileges. In this connection, I decided to compile a manual that will help with determining operating techniques for different types of delegation.
 
