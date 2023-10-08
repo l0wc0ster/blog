@@ -11,7 +11,7 @@ Hello everyone, in this blog I will post interesting attack techniques and privi
 
 | Theme      | Posted date    |
 | :------ | ------:|
-| [Difference in delegation abuse techniques](acl_ad_cd.md) | OCT 6 |
+| [Difference in constrained delegation abuse techniques](acl_ad_cd.md) | OCT 6 |
 
 ## Articles 2022
 
